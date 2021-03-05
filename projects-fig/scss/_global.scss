@@ -1,0 +1,82 @@
+// =======================
+html {
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+body {
+   padding: 0;
+   margin: 0;
+   color: #21243d;
+   font-size: 16px;
+   font-family: "Heebo", sans-serif;
+   font-weight: 400;
+   overflow-x: hidden;
+   position: relative;
+}
+*,
+*::before,
+*::before {
+   box-sizing: border-box;
+   box-sizing: inherit;
+}
+a {
+   text-decoration: none;
+   color: inherit;
+}
+hr {
+   border: 1px solid #e0e0e0;
+   margin: 0;
+}
+.wrapper {
+   overflow-x: hidden;
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+}
+.line {
+   border: 1px solid #e0e0e0;
+}
+// main-styles
+.title {
+   font-weight: 700;
+   font-size: 44px;
+   line-height: 60 / 44 * 100%;
+}
+.title-post {
+   font-size: 22px;
+   line-height: 60 / 22 * 100%;
+}
+.title-content {
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 44 / 30 * 100%;
+}
+.text {
+   font-size: 16px;
+   line-height: 23 / 16 * 100%;
+   color: #21243d;
+}
+.btn {
+   height: 47px;
+   display: inline-flex;
+   align-items: center;
+   background: #ff6464;
+   border-radius: 2px;
+   color: #fff;
+   padding: 0 20px;
+   font-weight: 500;
+   font-size: 20px;
+   transition: all 0.4s linear;
+   line-height: 29px;
+   line-height: 29 / 20 * 100%;
+   &:hover {
+      background: #c03c3c;
+   }
+}
+// container
+.container {
+   width: 100%;
+   max-width: 948px;
+   margin: 0 auto;
+   padding: 0 15px;
+}

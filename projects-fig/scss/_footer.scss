@@ -1,0 +1,23 @@
+// footer
+.footer {
+   margin-top: auto;
+   padding: 134px 0 54px 0;
+}
+.footer-inner {
+   text-align: center;
+}
+.footer-list {
+   display: flex;
+   justify-content: center;
+   margin-bottom: 25px;
+}
+.footer-list-item {
+   margin-right: 50px;
+}
+.footer-list-item:last-child {
+   margin-right: 0;
+}
+.footer-text {
+   font-size: 14px;
+   line-height: 21 / 14 * 100%;
+}

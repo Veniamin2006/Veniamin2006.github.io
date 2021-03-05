@@ -1,0 +1,30 @@
+// header
+.header {
+   padding-top: 34px;
+}
+.header-menu {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}
+.header-menu-list {
+   display: flex;
+}
+.header-menu-item {
+   margin-right: 33px;
+}
+.header-menu-item:last-child {
+   margin-right: 0;
+}
+.header-menu-link {
+   font-size: 20px;
+   font-weight: 500;
+   color: #000;
+   transition: all 0.4s linear;
+}
+.active {
+   color: #ff6464;
+}
+.header-menu-link:hover {
+   color: #ff6464;
+}

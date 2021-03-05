@@ -1,0 +1,39 @@
+.works {
+   padding-top: 105px;
+}
+.works-title {
+   margin-bottom: 35px;
+}
+.works-card {
+   display: flex;
+}
+.work-card-images {
+   margin-right: 18px;
+}
+.works-card-images {
+   margin-right: 18px;
+}
+.works-card-title {
+   margin-bottom: 18px;
+}
+.works-card-overtext {
+   font-size: 20px;
+   color: #8695a4;
+   margin-bottom: 20px;
+}
+.works-card-overtext span {
+   display: inline-block;
+   font-weight: 900;
+   font-size: 18px;
+   color: #fff;
+   background: #142850;
+   border-radius: 16px;
+   padding: 5px 12px;
+   margin-right: 25px;
+}
+.works-line {
+   margin: 40px 0;
+}
+.works-line:last-child {
+   margin-bottom: 0;
+}
