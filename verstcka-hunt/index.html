@@ -1,79 +1,101 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Document</title>
-   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/reset.css">
    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+   <div class="wrapper">
+      <header id="header" class="header">
+         <div class="container">
+            <div class="header-inner">
+               <div class="header-info">
+                  <div class="header-title">
+                     <h1>Поездки из <span>Уфы</span><br>в <span>Нижневартовск</span><br>и обратно</h1>
+                  </div>
+                  <a href="#popup" class="header-btn btn">Поехать</a>
+                  <a href="tel:89631406000" class="header-btn-mob btn">Поехать</a>
+                  <div class="header-text">
+                     <span>Промежутки</span><br>
+                     Юрюзань Сатка Златоуст Челябинск Шумиха Юргамыш Курган Исетское Тюмень
+                     Тобольск
+                     Уват Салым Пыть-Ях Нефтеюганск Сургут Лангепас Мегион
+                  </div>
+               </div>
+               <div class="header-car">
+                  <img src="images/header-car.png" alt="">
+               </div>
+            </div>
 
-   <div class="container">
-
-      <div class="swiper-container swiper2">
-         <div class="swiper-wrapper">
-            <div class="swiper-slide">
-               <div class="swiper-lazy"
-                  data-background="https://images.unsplash.com/flagged/photo-1562013660-15480526cadc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2602&q=80">
+         </div>
+      </header>
+      <section class="benefits">
+         <div class="container">
+            <div class="benefits-inner">
+               <div class="benefits-left">
+                  <div class="benefits-title">
+                     Также перевозим
+                  </div>
+                  <div class="benefits-text">
+                     <p>🐶 Животных</p>
+                     <p>📄 Документы</p>
+                     <p>🌿 Растения</p>
+                  </div>
                </div>
-            </div>
-            <div class="swiper-slide">
-               <div class="swiper-lazy"
-                  data-background="https://images.unsplash.com/flagged/photo-1562013660-15480526cadc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2602&q=80">
-               </div>
-            </div>
-            <div class="swiper-slide">
-               <div class="swiper-lazy"
-                  data-background="https://images.unsplash.com/flagged/photo-1562013660-15480526cadc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2602&q=80">
-               </div>
-            </div>
-            <div class="swiper-slide">
-               <div class="swiper-lazy"
-                  data-background="https://images.unsplash.com/flagged/photo-1562013660-15480526cadc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2602&q=80">
-               </div>
-            </div>
-            <div class="swiper-slide">
-               <div class="swiper-lazy"
-                  data-background="https://images.unsplash.com/flagged/photo-1562013660-15480526cadc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2602&q=80">
+               <div class="benefits-right">
+                  <div class="benefits-title">
+                     Удобства
+                  </div>
+                  <div class="benefits-text">
+                     <p>💺 Мягкие откидные сиденья</p>
+                     <p>💺 Мягкие откидные сиденья</p>
+                     <p>💺 Мягкие откидные сиденья</p>
+                  </div>
                </div>
             </div>
          </div>
+      </section>
+      <footer class="footer">
+         <div class="container">
+            <div class="footer-title">
+               <div class="footer-title">
+                  Гарантии
+               </div>
+               <div class="footer-text">
+                  <p>🚐 Два водителя</p>
+                  <p>😷 Водитель перед рейсом проходит медосмотр</p>
+                  <p>🔧 Автомобиль проходит проверку тех. состояния</p>
+                  <p>💵 Каждое посадочное место застраховано</p>
+               </div>
+               <a href="#popup" class="footer-btn">Поехать</a>
+               <a href="tel:89631406000" class="footer-btn-mob">Поехать</a>
+            </div>
+         </div>
+      </footer>
+   </div>
+   <div id="popup" class="popup">
+      <a href="#" class="popup-area"></a>
+      <div class="popup-body">
+         <div class="popup-content">
+            <a href="#header" class="popup-close">
+               <img src="images/close-x.svg" alt="">
+            </a>
+            <div class="popup-text">
+               Позвоните нашему диспетчеру
+            </div>
+            <a href="tel:89631406000" class="popup-phone">8 963 140 60 00</a>
+         </div>
       </div>
    </div>
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-   <script src="js/script.js"></script>
-
-
-   <script>
-      console.clear();
-      // Swiper with centeredSlides: false;
-      var mySwiper = new Swiper('.swiper2', {
-         initialSlide: 0,
-         spaceBetween: 0,
-         slidesPerView: 5,
-         centeredSlides: false,
-         preloadImages: false,
-         lazy: {
-            loadPrevNext: true,
-            loadPrevNextAmount: 3
-         },
-         watchSlidesVisibility: true,
-         effect: "coverflow",
-         coverflowEffect: {
-            rotate: 0,
-            depth: 350,
-            slideShadows: false
-         },
-         keyboard: {
-            enabled: true
-         }
-      });
-   </script>
 </body>
 
 </html>
