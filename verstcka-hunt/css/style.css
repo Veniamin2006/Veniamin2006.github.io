@@ -43,7 +43,7 @@ button {
 
 .container {
   width: 100%;
-  max-width: 2110px;
+  max-width: 1617px;
   margin: 0 auto;
   padding: 0 56px;
 }
@@ -97,6 +97,10 @@ button {
 .header-text span {
   font-weight: 600;
 }
+.header-car img {
+  width: 900px;
+  height: 600px;
+}
 
 .benefits {
   padding: 90px 0px 0px 0px;
@@ -114,7 +118,13 @@ button {
 }
 .benefits-text {
   font-size: 32px;
-  line-height: 189.4%;
+  line-height: 150%;
+}
+.benefits-text p {
+  margin-bottom: 14px;
+}
+.benefits-text p:last-child {
+  margin-bottom: 0;
 }
 
 .popup {
@@ -147,16 +157,18 @@ button {
 
 .popup-content {
   width: 879px;
-  padding: 52px 0 51px 0;
   text-align: center;
   position: relative;
   background: #ffffff;
   border-radius: 24px;
+  height: 292px;
+  align-items: center;
+  display: grid;
 }
 
 .popup-text {
   font-size: 42px;
-  margin-bottom: 45px;
+  margin-bottom: -88px;
 }
 
 .popup-phone {
@@ -177,14 +189,21 @@ button {
   top: -19px;
   right: -9px;
   border: 1px solid #2172eb;
-  padding: 5px 13px 6px 14px;
+  padding: 5px 13px 7px 15px;
   transition: all 0.4s linear;
   border-radius: 70px;
 }
 .popup-close:hover {
-  color: #fff;
   background: #2172eb;
-  border-radius: 70px;
+}
+.popup-close:hover::before {
+  content: "";
+  background: url(../images/close-blue.svg) no-repeat;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 14px;
+  right: -15px;
 }
 
 .footer {
@@ -336,7 +355,6 @@ button {
   .footer-btn,
 .footer-btn-mob {
     font-size: 28px;
-    padding: 15px 80px 15px 80px;
   }
 }
 @media (max-width: 760px) {
