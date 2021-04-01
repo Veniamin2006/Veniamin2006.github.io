@@ -1,0 +1,62 @@
+// =======================
+html {
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+body {
+   padding: 0;
+   margin: 0;
+   font-size: 32px;
+   font-family: "Montserrat", sans-serif;
+   font-weight: 400;
+   color: #000;
+   overflow-x: hidden;
+   position: relative;
+}
+
+*,
+*::before,
+*::before {
+   box-sizing: border-box;
+   box-sizing: inherit;
+}
+
+a {
+   text-decoration: none;
+   color: inherit;
+}
+button {
+   background: 0;
+   border: 0;
+}
+.wrapper {
+   overflow-x: hidden;
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+}
+
+// container
+.container {
+   width: 100%;
+   max-width: 1600px;
+   margin: 0 auto;
+   padding: 0 56px;
+}
+.btn {
+   font-weight: 700;
+   font-size: 34px;
+   color: #ffffff;
+   background: #2172eb;
+   border-radius: 24px;
+   border: 3px solid transparent;
+   transition: all 0.4s linear;
+   padding: 20px 184px 27px 179px;
+   display: inline-flex;
+   &:hover {
+      background: 0;
+      border: 3px solid #2172eb;
+      color: #000;
+   }
+}

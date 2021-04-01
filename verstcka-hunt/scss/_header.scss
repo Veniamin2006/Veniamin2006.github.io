@@ -1,0 +1,38 @@
+.header {
+   position: relative;
+   &-inner {
+      display: flex;
+      justify-content: space-between;
+   }
+   &-info {
+      padding-top: 143px;
+      z-index: 1000;
+   }
+   &-title {
+      font-weight: 700;
+      font-size: 54px;
+      line-height: 74 / 54 * 100%;
+      margin-bottom: 33px;
+      span {
+         color: #2172eb;
+      }
+   }
+   &-btn {
+      margin-bottom: 40px;
+   }
+   &-text {
+      font-size: 32px;
+      line-height: 54 / 32 * 100%;
+      color: #696969;
+      word-spacing: 8px;
+      span {
+         font-weight: 600;
+      }
+   }
+   // &-car {
+   //    img {
+   //       width: 777px;
+   //       height: 896px;
+   //    }
+   // }
+}

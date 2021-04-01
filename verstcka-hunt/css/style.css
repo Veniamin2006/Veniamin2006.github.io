@@ -1,0 +1,363 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 32px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #000;
+  overflow-x: hidden;
+  position: relative;
+}
+
+*,
+*::before,
+*::before {
+  box-sizing: border-box;
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: 0;
+  border: 0;
+}
+
+.wrapper {
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 56px;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 34px;
+  color: #ffffff;
+  background: #2172eb;
+  border-radius: 24px;
+  border: 3px solid transparent;
+  transition: all 0.4s linear;
+  padding: 20px 184px 27px 179px;
+  display: inline-flex;
+}
+.btn:hover {
+  background: 0;
+  border: 3px solid #2172eb;
+  color: #000;
+}
+
+.header {
+  position: relative;
+}
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+}
+.header-info {
+  padding-top: 143px;
+  z-index: 1000;
+}
+.header-title {
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 137.037037037%;
+  margin-bottom: 33px;
+}
+.header-title span {
+  color: #2172eb;
+}
+.header-btn {
+  margin-bottom: 40px;
+}
+.header-text {
+  font-size: 32px;
+  line-height: 168.75%;
+  color: #696969;
+  word-spacing: 8px;
+}
+.header-text span {
+  font-weight: 600;
+}
+
+.benefits {
+  padding: 90px 0px 0px 0px;
+}
+.benefits-inner {
+  display: flex;
+}
+.benefits-left {
+  margin-right: 159px;
+}
+.benefits-title {
+  font-weight: 600;
+  font-size: 42px;
+  margin-bottom: 25px;
+}
+.benefits-text {
+  font-size: 32px;
+  line-height: 189.4%;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  overflow-y: auto;
+  overflow-x: hidden;
+  transition: all 0.8s ease 0s;
+}
+
+.popup:target {
+  opacity: 1;
+  visibility: visible;
+  z-index: 100000;
+}
+
+.popup-body {
+  min-height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+}
+
+.popup-content {
+  width: 879px;
+  padding: 52px 0 51px 0;
+  text-align: center;
+  position: relative;
+  background: #ffffff;
+  border-radius: 24px;
+}
+
+.popup-text {
+  font-size: 42px;
+  margin-bottom: 45px;
+}
+
+.popup-phone {
+  font-weight: 600;
+  font-size: 89px;
+  transition: all 0.4s linear;
+  color: #2172eb;
+}
+.popup-phone:hover {
+  color: #ff0000;
+}
+
+.popup-close img {
+  content: "";
+  right: -8px;
+  top: -19px;
+  position: absolute;
+}
+
+.footer {
+  padding-top: 90px;
+}
+.footer-title {
+  font-weight: 600;
+  font-size: 42px;
+  margin-bottom: 25px;
+}
+.footer-text {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 189.4%;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1300px) {
+  .header-car {
+    display: none;
+  }
+
+  .header {
+    position: relative;
+  }
+  .header::before {
+    content: "";
+    background: url(../images/header-car-mob.svg) no-repeat;
+    width: 1000px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -273px;
+  }
+}
+@media (max-width: 1158px) {
+  .header-info {
+    padding-top: 500px;
+  }
+}
+@media (max-width: 900px) {
+  .benefits-right {
+    margin-right: 0;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+}
+@media (max-width: 800px) {
+  .benefits-inner {
+    flex-direction: column;
+  }
+
+  .benefits-left {
+    margin-bottom: 32px;
+  }
+}
+@media (max-width: 760px) {
+  .header {
+    position: relative;
+  }
+  .header::before {
+    content: "";
+    background: url(../images/header-car-mob2.svg) no-repeat;
+    width: 650px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -100px;
+  }
+}
+@media (max-width: 770px) {
+  .popup-text {
+    font-size: 30px;
+  }
+
+  .popup-phone {
+    font-size: 60px;
+  }
+}
+@media (max-width: 700px) {
+  .btn {
+    padding: 20px 162px 27px 158px;
+  }
+
+  .header-text {
+    font-size: 24px;
+  }
+}
+@media (max-width: 700px) and (max-width: 560px) {
+  .header-title {
+    font-size: 46px;
+  }
+
+  .btn {
+    padding: 20px 139px 27px 135px;
+  }
+
+  .benefits-title,
+.footer-title {
+    font-size: 35px;
+  }
+
+  .benefits-text,
+.footer-text {
+    font-size: 22px;
+  }
+
+  .footer,
+.benefits {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 540px) {
+  .popup-text {
+    font-size: 20px;
+  }
+
+  .popup-phone {
+    font-size: 40px;
+  }
+}
+@media (max-width: 490px) {
+  .header {
+    position: relative;
+  }
+  .header::before {
+    content: "";
+    background: url(../images/header-car-mob3.svg) no-repeat;
+    width: 442px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: -80px;
+  }
+
+  .header-info {
+    padding-top: 300px;
+  }
+
+  .popup-text {
+    font-size: 18px;
+  }
+
+  .popup-phone {
+    font-size: 35px;
+  }
+}
+@media (max-width: 470px) {
+  .header-title {
+    font-size: 39px;
+  }
+
+  .btn {
+    font-size: 24px;
+  }
+
+  .benefits-title,
+.footer-title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 414px) {
+  .header-title {
+    font-size: 34px;
+  }
+
+  .header-text {
+    font-size: 22px;
+  }
+
+  .btn {
+    padding: 11px 85px 16px 85px;
+  }
+}
+@media (max-width: 355px) {
+  .header-title {
+    font-size: 30px;
+  }
+
+  .header-text {
+    font-size: 20px;
+  }
+
+  .benefits-text,
+.footer-text {
+    font-size: 17px;
+  }
+}
