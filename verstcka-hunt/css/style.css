@@ -199,7 +199,7 @@ button {
   margin-bottom: 25px;
 }
 .footer-text p {
-  margin-bottom: 20px;
+  margin-bottom: 14px;
 }
 .footer-text p:last-child {
   margin-bottom: 0;
@@ -310,11 +310,6 @@ button {
   }
 }
 @media (max-width: 800px) {
-  .benefits-title {
-    line-height: 140%;
-    margin-bottom: 0;
-  }
-
   .header-title {
     font-size: 39px;
     margin-bottom: 28px;
@@ -334,11 +329,6 @@ button {
 .footer-btn-mob {
     font-size: 28px;
     padding: 10px 0px 10px 0px;
-  }
-
-  .footer-title {
-    line-height: 140%;
-    margin-bottom: 0;
   }
 }
 @media (max-width: 760px) {
@@ -389,7 +379,7 @@ button {
   }
 
   .footer-text {
-    font-size: 22px;
+    font-size: 30px;
   }
 
   .footer,
@@ -411,7 +401,8 @@ button {
     font-size: 34px;
   }
 
-  .benefits-text {
+  .benefits-text,
+.footer-text {
     font-size: 24px;
   }
 }
@@ -465,11 +456,13 @@ button {
   }
 }
 @media (max-width: 402px) {
-  .benefits-title {
+  .benefits-title,
+.footer-title {
     font-size: 30px;
   }
 
-  .benefits-text {
+  .benefits-text,
+.footer-text {
     font-size: 20px;
   }
 
