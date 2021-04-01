@@ -1,0 +1,28 @@
+.container {
+   width: 1000px;
+   height: 500px;
+}
+
+.swiper-container {
+   display: block;
+   width: 100%;
+   margin: 0 auto;
+}
+
+.swiper-slide {
+   position: relative;
+   width: 80%;
+   padding-top: 300px;
+   margin-right: -90px;
+}
+
+.swiper-slide div {
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: -87px;
+   bottom: 0;
+   background-size: cover !important;
+   background-repeat: no-repeat !important;
+   background-position: 50% 50% !important;
+}
