@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Аренда 1С в облаке </title>
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="css/normalize.css">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+         <div class="container">
+            <div class="header-images">
+               <img src="images/header.png" alt="banner">
+            </div>
+         </div>
+      </header>
+      <section class="registration">
+         <div class="container">
+            <div class="registration-title title">
+               <h1>Регистрация в группы к наставникам</h1>
+            </div>
+            <div class="registration-subtitle">
+               Поток 15. Старт 13.12.2020
+            </div>
+            <div class="registration-text text">
+               <p> Дорогой участник клуба Терра!</p>
+               <p>
+                  Сейчас перед тобой стоит важная задача - выбор наставника, который в ближайшие два месяца будет
+                  помогать
+                  тебе строить твой бизнес.
+               </p>
+            </div>
+            <div class="registration-item">
+               <div class="registration-item-text">
+                  <p> Несколько <span>ключевых</span> советов, которые помогут тебе сделать наилучший выбор:</p>
+                  <p>1. Выбирай наставника, которому ты готов беспрекословно доверять - это залог успешного
+                     взаимодействия
+                  </p>
+                  <p>2. Если ты понимаешь, что в каких-то моментах сильнее наставника, особенно психологически, то лучше
+                     выбери другого наставника, иначе ты будешь много сил и энергии тратить на саботаж, вместо того,
+                     чтобы
+                     взять и сделать
+                  </p>
+                  <p> Желаем тебе удачного выбора!</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section class="rules">
+         <div class="container">
+            <div class="rules-title title">
+               <h2>Правила регистрации</h2>
+            </div>
+            <div class="rules-text text">
+               <p>
+                  1. Выбрать нужно только одного наставника. Если ты записался к нескольким наставникам - ты попадёшь в
+                  группу к первому выбранному тобой наставнику.
+               </p>
+               <p> 2. Окончание регистрации 14.12.2020 в 17:30, успей сделать свой выбор до окончания срока действия
+                  ссылки!
+               </p>
+            </div>
+            <form class="rules-form">
+               <div class="rules-form-inner">
+                  <div class="rules-form-item">
+                     <div class="rules-form-item-point">
+                        <label class="rules-form-label">Фамилия</label>
+                        <input class="rules-form-input" type="text" placeholder="Ваша фамилия" required>
+                     </div>
+                     <div class="rules-form-item-point">
+                        <label class="rules-form-label">Имя</label>
+                        <input class="rules-form-input" type="text" placeholder="Имя" required>
+                     </div>
+                     <div class="rules-form-item-point">
+                        <label class="rules-form-label">Отчество</label>
+                        <input class="rules-form-input" type="text" placeholder="Отчество" required>
+                     </div>
+                  </div>
+                  <div class="rules-form-item">
+                     <div class="rules-form-item-point">
+                        <label class="rules-form-label">Номер телефона</label>
+                        <input class="rules-form-field" type="tel" placeholder="+7 999 123 76-54" required>
+                     </div>
+                     <div class="rules-form-item-point">
+                        <label class="rules-form-label">Имя в телеграм</label>
+                        <input class="rules-form-field" type="text" placeholder="@username" required>
+                     </div>
+                  </div>
+                  <!-- <div class="rules-form-item">
+                     <div class="rules-form-item-difference">
+                        <label class="rules-form-label">Сколько раз проходили наставничество в Терре?</label>
+                        <div class="blox">
+                           <input type="range" min="1" max="100" value="50">
+                           <input type="radio">
+                           <input type="range">
+                        </div>
+                     </div>
+                  </div> -->
+                  <!-- <div class="rules-form-item">
+                     <div class="rules-form-label">Ваш ежемесячный чистый доход от вашего проекта?</div>
+                  </div> -->
+                  <div class="rules-form-item">
+                     <div class="rules-form-item-point">
+                        <label class="rules-form-label">Как вы планируете проходить наставничество?</label>
+                        <label for="radio-1" class="rules-form-radio">
+                           <input type="radio" name="demo" value="1" id="radio-1" required>
+                           <span class="radio"></span>
+                           <lable class="form-label-radio">Офлайн</lable>
+                        </label>
+                        <label for="radio-n" class="rules-form-radio">
+                           <input type="radio" name="demo" value="1" id="radio-n" required>
+                           <span class="radio"></span>
+                           <lable class="form-label-radio">Онлайн</lable>
+                        </label>
+                     </div>
+                  </div>
+                  <div class="rules-form-item">
+                     <div class="rules-form-item-point">
+                        <label class="rules-form-label">Ваш статус?</label>
+                        <label for="radio-3" class="rules-form-radio radio-block">
+                           <input type="radio" name="demo" value="1" id="radio-3" required>
+                           <span class="radio"></span>
+                           <lable class="form-label-radio">Запуск (для предпринимателей до 300 тыс./мес.)</lable>
+                        </label>
+                        <label for="radio-4" class="rules-form-radio radio-block">
+                           <input type="radio" name="demo" value="1" id="radio-4" required>
+                           <span class="radio"></span>
+                           <label class="form-label-radio">Прорыв (300+ тыс./мес.)</label>
+                        </label>
+                     </div>
+                  </div>
+                  <div class="rules-form-item">
+                     <div class="rules-form-item-point point">
+                        <div class="rules-form-item-point-top">
+                           <label class="rules-form-label">Выберите наставника</label>
+                           <input class="rules-form-field" type="text" placeholder="Введите данные для поиска">
+                        </div>
+                        <div class="rules-form-content">
+                           <div id="myDIV" class="rules-form-tabs">
+                              <nav class="rules-form-columns">
+                                 <a href="#tab_01" class="rules-form-column active">
+                                    <div class="rules-form-column-icon">
+                                       <img src="images/tab-1.png" alt="user">
+                                    </div>
+                                    <div class="rules-form-column-info">
+                                       <div class="rules-form-column-title">
+                                          <h5>Кирилл Жариков</h5>
+                                       </div>
+                                       <div class="rules-form-column-subtitle">
+                                          Личная эффективность
+                                       </div>
+                                       <div class="rules-form-column-text">
+                                          Продажа сел/хоз оборудования
+                                       </div>
+                                    </div>
+                                 </a>
+                                 <a href="#tab_02" class="rules-form-column">
+                                    <div class="rules-form-column-icon">
+                                       <img src="images/tab-2.png" alt="user">
+                                    </div>
+                                    <div class="rules-form-column-info">
+                                       <div class="rules-form-column-title">
+                                          <h5>Роман Шевелев</h5>
+                                       </div>
+                                       <div class="rules-form-column-subtitle">
+                                          Маркетинг
+                                       </div>
+                                       <div class="rules-form-column-text">
+                                          Маркетинговое агенство
+                                       </div>
+                                    </div>
+                                 </a>
+                                 <a href="#tab_03" class="rules-form-column">
+                                    <div class="rules-form-column-icon">
+                                       <img src="images/tab-3.png" alt="user">
+                                    </div>
+                                    <div class="rules-form-column-info">
+                                       <div class="rules-form-column-title">
+                                          <h5>Павел Костюков</h5>
+                                       </div>
+                                       <div class="rules-form-column-subtitle">
+                                          Маркетинг, система
+                                       </div>
+                                       <div class="rules-form-column-text">
+                                          Компания “Мастера ремонта”
+                                       </div>
+                                    </div>
+                                 </a>
+                                 <a href="#tab_04" class="rules-form-column">
+                                    <div class="rules-form-column-icon">
+                                       <img src="images/tab-3.png" alt="user">
+                                    </div>
+                                    <div class="rules-form-column-info">
+                                       <div class="rules-form-column-title">
+                                          <h5>Даниил Лепешкин</h5>
+                                       </div>
+                                       <div class="rules-form-column-subtitle">
+                                          Система
+                                       </div>
+                                    </div>
+                                 </a>
+                                 <a href="#tab_05" class="rules-form-column">
+                                    <div class="rules-form-column-icon">
+                                       <img src="images/tab-3.png" alt="user">
+                                    </div>
+                                    <div class="rules-form-column-info">
+                                       <div class="rules-form-column-title">
+                                          <h5>Руслан Хайруллин</h5>
+                                       </div>
+                                       <div class="rules-form-column-subtitle">
+                                          Wildberries
+                                       </div>
+                                       <div class="rules-form-column-text">
+                                          Выводит на wildberries
+                                       </div>
+                                    </div>
+                                 </a>
+                                 <a href="#tab_06" class="rules-form-column">
+                                    <div class="rules-form-column-icon">
+                                       <img src="images/tab-3.png" alt="user">
+                                    </div>
+                                    <div class="rules-form-column-info">
+                                       <div class="rules-form-column-title">
+                                          <h5>Артем Пономарев</h5>
+                                       </div>
+                                       <div class="rules-form-column-subtitle">
+                                          Система
+                                       </div>
+                                    </div>
+                                 </a>
+                              </nav>
+                              <div class="rules-form-body">
+                                 <label class="rules-form-label rules-form-body-title">
+                                    Подробнее о наставнике
+                                 </label>
+                                 <div id="tab_01" class="rules-form-block">
+                                    <div class="rules-form-block-top">
+                                       <div class="rules-form-block-icon">
+                                          <img src="images/tab-3.png" alt="Роман Шевелев">
+                                       </div>
+                                       <div class="rules-form-block-info">
+                                          <div class="rules-form-block-title">
+                                             <h5>Кирилл Жариков</h5>
+                                          </div>
+                                          <div class="rules-form-block-subtitle">
+                                             Личная эффективность
+                                          </div>
+                                          <div class="rules-form-block-text">
+                                             Продажа сел/хоз оборудования
+                                          </div>
+                                          <a href="https://www.youtube.com/watch?v=Mt37USmOwFI"
+                                             class="rules-form-block-btn">Видео</a>
+                                       </div>
+                                    </div>
+                                    <div class="rules-form-block-bottom">
+                                       <div class="rules-form-block-descr">
+                                          <p>Предприниматель</p>
+                                          <p>
+                                             -маркетинг
+                                             -нестандартные источники рекламного трафика
+                                             -построение алгоритмов и систем. Отладка бизнес-процессов.
+                                             -оцифровка действий, результатов и процессов.
+                                          </p>
+                                          <p>
+                                             Ниши:
+                                             -Маркетинговое агентство,
+                                             -сезонная товарка оптом
+                                          </p>
+                                          <p>
+                                             Достижения:
+                                             -3 года получал клиентов только по рекомендации других клиентов, без
+                                          </p>
+                                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur est
+                                             vel, voluptatem earum consequatur aperiam explicabo nesciunt nemo mollitia
+                                             qui labore possimus enim amet officiis distinctio. Quidem modi autem
+                                             voluptate.
+                                          </p>
+                                          <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad cum
+                                             explicabo itaque, doloribus, nemo, necessitatibus quibusdam consequuntur ut
+                                             porro officia magni? Culpa provident natus omnis illum molestias.
+                                             Consequatur, eveniet?
+                                          </p>
+                                          <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad cum
+                                             explicabo itaque, doloribus, nemo, necessitatibus quibusdam consequuntur ut
+                                             porro officia magni? Culpa provident natus omnis illum molestias.
+                                             Consequatur, eveniet?
+                                          </p>
+                                          <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad cum
+                                             explicabo itaque, doloribus, nemo, necessitatibus quibusdam consequuntur ut
+                                             porro officia magni? Culpa provident natus omnis illum molestias.
+                                             Consequatur, eveniet?
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div id="tab_02" class="rules-form-block">
+                                    <div class="rules-form-block-top">
+                                       <div class="rules-form-block-icon">
+                                          <img src="images/user-1.png" alt="Роман Шевелев">
+                                       </div>
+                                       <div class="rules-form-block-info">
+                                          <div class="rules-form-block-title">
+                                             <h5>Роман Шевелев</h5>
+                                          </div>
+                                          <div class="rules-form-block-subtitle">
+                                             Маркетинг
+                                          </div>
+                                          <div class="rules-form-block-text">
+                                             Маркетинговое агенство
+                                          </div>
+                                          <a href="#" class="rules-form-block-btn">Видео</a>
+                                       </div>
+                                    </div>
+                                    <div class="rules-form-block-bottom">
+                                       <div class="rules-form-block-descr">
+                                          <p>Предприниматель</p>
+                                          <p>
+                                             -маркетинг
+                                             -нестандартные источники рекламного трафика
+                                             -построение алгоритмов и систем. Отладка бизнес-процессов.
+                                             -оцифровка действий, результатов и процессов.
+                                          </p>
+                                          <p>
+                                             Ниши:
+                                             -Маркетинговое агентство,
+                                             -сезонная товарка оптом
+                                          </p>
+                                          <p>
+                                             Достижения:
+                                             -3 года получал клиентов только по рекомендации других клиентов, без
+                                          </p>
+                                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur est
+                                             vel, voluptatem earum consequatur aperiam explicabo nesciunt nemo mollitia
+                                             qui labore possimus enim amet officiis distinctio. Quidem modi autem
+                                             voluptate.
+                                          </p>
+                                          <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad cum
+                                             explicabo itaque, doloribus, nemo, necessitatibus quibusdam consequuntur ut
+                                             porro officia magni? Culpa provident natus omnis illum molestias.
+                                             Consequatur, eveniet?
+                                          </p>
+                                          <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad cum
+                                             explicabo itaque, doloribus, nemo, necessitatibus quibusdam consequuntur ut
+                                             porro officia magni? Culpa provident natus omnis illum molestias.
+                                             Consequatur, eveniet?
+                                          </p>
+                                          <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad cum
+                                             explicabo itaque, doloribus, nemo, necessitatibus quibusdam consequuntur ut
+                                             porro officia magni? Culpa provident natus omnis illum molestias.
+                                             Consequatur, eveniet?
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div id="tab_03" class="rules-form-block">
+                                    <div class="rules-form-block-top">
+                                       <div class="rules-form-block-icon">
+                                          <img src="images/tab-3.png" alt="Роман Шевелев">
+                                       </div>
+                                       <div class="rules-form-block-info">
+                                          <div class="rules-form-block-title">
+                                             <h5>Павел Костюков</h5>
+                                          </div>
+                                          <div class="rules-form-block-subtitle">
+                                             Маркетинг, система
+                                          </div>
+                                          <div class="rules-form-block-text">
+                                             Компания “Мастера ремонта”
+                                          </div>
+                                          <a href="#" class="rules-form-block-btn">Видео</a>
+                                       </div>
+                                    </div>
+                                    <div class="rules-form-block-bottom">
+                                       <div class="rules-form-block-descr">
+                                          <p>Предприниматель</p>
+                                          <p>
+                                             -маркетинг
+                                             -нестандартные источники рекламного трафика
+                                             -построение алгоритмов и систем. Отладка бизнес-процессов.
+                                             -оцифровка действий, результатов и процессов.
+                                          </p>
+                                          <p>
+                                             Ниши:
+                                             -Маркетинговое агентство,
+                                             -сезонная товарка оптом
+                                          </p>
+                                          <p>
+                                             Достижения:
+                                             -3 года получал клиентов только по рекомендации других клиентов, без
+                                          </p>
+                                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur est
+                                             vel, voluptatem earum consequatur aperiam explicabo nesciunt nemo mollitia
+                                             qui labore possimus enim amet officiis distinctio. Quidem modi autem
+                                             voluptate.
+                                          </p>
+                                          <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad cum
+                                             explicabo itaque, doloribus, nemo, necessitatibus quibusdam consequuntur ut
+                                             porro officia magni? Culpa provident natus omnis illum molestias.
+                                             Consequatur, eveniet?
+                                          </p>
+                                          <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad cum
+                                             explicabo itaque, doloribus, nemo, necessitatibus quibusdam consequuntur ut
+                                             porro officia magni? Culpa provident natus omnis illum molestias.
+                                             Consequatur, eveniet?
+                                          </p>
+                                          <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad cum
+                                             explicabo itaque, doloribus, nemo, necessitatibus quibusdam consequuntur ut
+                                             porro officia magni? Culpa provident natus omnis illum molestias.
+                                             Consequatur, eveniet?
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div id="tab_04" class="rules-form-block">
+                                    <div class="rules-form-block-top">
+                                       <div class="rules-form-block-icon">
+                                          <img src="images/tab-3.png" alt="Роман Шевелев">
+                                       </div>
+                                       <div class="rules-form-block-info">
+                                          <div class="rules-form-block-title">
+                                             <h5>Даниил Лепешкин</h5>
+                                          </div>
+                                          <div class="rules-form-block-span">
+                                             Система
+                                          </div>
+                                          <a href="#" class="rules-form-block-btn">Видео</a>
+                                       </div>
+                                    </div>
+                                    <div class="rules-form-block-bottom">
+                                       <div class="rules-form-block-descr">
+                                          <p>Предприниматель</p>
+                                          <p>
+                                             -маркетинг
+                                             -нестандартные источники рекламного трафика
+                                             -построение алгоритмов и систем. Отладка бизнес-процессов.
+                                             -оцифровка действий, результатов и процессов.
+                                          </p>
+                                          <p>
+                                             Ниши:
+                                             -Маркетинговое агентство,
+                                             -сезонная товарка оптом
+                                          </p>
+                                          <p>
+                                             Достижения:
+                                             -3 года получал клиентов только по рекомендации других клиентов, без
+                                          </p>
+                                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur est
+                                             vel, voluptatem earum consequatur aperiam explicabo nesciunt nemo mollitia
+                                             qui labore possimus enim amet officiis distinctio. Quidem modi autem
+                                             voluptate.
+                                          </p>
+                                          <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad cum
+                                             explicabo itaque, doloribus, nemo, necessitatibus quibusdam consequuntur ut
+                                             porro officia magni? Culpa provident natus omnis illum molestias.
+                                             Consequatur, eveniet?
+                                          </p>
+                                          <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad cum
+                                             explicabo itaque, doloribus, nemo, necessitatibus quibusdam consequuntur ut
+                                             porro officia magni? Culpa provident natus omnis illum molestias.
+                                             Consequatur, eveniet?
+                                          </p>
+                                          <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad cum
+                                             explicabo itaque, doloribus, nemo, necessitatibus quibusdam consequuntur ut
+                                             porro officia magni? Culpa provident natus omnis illum molestias.
+                                             Consequatur, eveniet?
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div id="tab_05" class="rules-form-block">
+                                    <div class="rules-form-block-top">
+                                       <div class="rules-form-block-icon">
+                                          <img src="images/tab-3.png" alt="Роман Шевелев">
+                                       </div>
+                                       <div class="rules-form-block-info">
+                                          <div class="rules-form-block-title">
+                                             <h5>Руслан Хайруллин</h5>
+                                          </div>
+                                          <div class="rules-form-block-subtitle">
+                                             Wildberries
+                                          </div>
+                                          <div class="rules-form-block-text">
+                                             Выводит на wildberries
+                                          </div>
+                                          <a href="#" class="rules-form-block-btn">Видео</a>
+                                       </div>
+                                    </div>
+                                    <div class="rules-form-block-bottom">
+                                       <div class="rules-form-block-descr">
+                                          <p>Предприниматель</p>
+                                          <p>
+                                             -маркетинг
+                                             -нестандартные источники рекламного трафика
+                                             -построение алгоритмов и систем. Отладка бизнес-процессов.
+                                             -оцифровка действий, результатов и процессов.
+                                          </p>
+                                          <p>
+                                             Ниши:
+                                             -Маркетинговое агентство,
+                                             -сезонная товарка оптом
+                                          </p>
+                                          <p>
+                                             Достижения:
+                                             -3 года получал клиентов только по рекомендации других клиентов, без
+                                          </p>
+                                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur est
+                                             vel, voluptatem earum consequatur aperiam explicabo nesciunt nemo mollitia
+                                             qui labore possimus enim amet officiis distinctio. Quidem modi autem
+                                             voluptate.
+                                          </p>
+                                          <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad cum
+                                             explicabo itaque, doloribus, nemo, necessitatibus quibusdam consequuntur ut
+                                             porro officia magni? Culpa provident natus omnis illum molestias.
+                                             Consequatur, eveniet?
+                                          </p>
+                                          <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad cum
+                                             explicabo itaque, doloribus, nemo, necessitatibus quibusdam consequuntur ut
+                                             porro officia magni? Culpa provident natus omnis illum molestias.
+                                             Consequatur, eveniet?
+                                          </p>
+                                          <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad cum
+                                             explicabo itaque, doloribus, nemo, necessitatibus quibusdam consequuntur ut
+                                             porro officia magni? Culpa provident natus omnis illum molestias.
+                                             Consequatur, eveniet?
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                                 <div id="tab_06" class="rules-form-block">
+                                    <div class="rules-form-block-top">
+                                       <div class="rules-form-block-icon">
+                                          <img src="images/tab-3.png" alt="Роман Шевелев">
+                                       </div>
+                                       <div class="rules-form-block-info">
+                                          <div class="rules-form-block-title">
+                                             <h5>Артем Пономарев</h5>
+                                          </div>
+                                          <div class="rules-form-block-span">
+                                             Система
+                                          </div>
+                                          <a href="#" class="rules-form-block-btn">Видео</a>
+                                       </div>
+                                    </div>
+                                    <div class="rules-form-block-bottom">
+                                       <div class="rules-form-block-descr">
+                                          <p>Предприниматель</p>
+                                          <p>
+                                             -маркетинг
+                                             -нестандартные источники рекламного трафика
+                                             -построение алгоритмов и систем. Отладка бизнес-процессов.
+                                             -оцифровка действий, результатов и процессов.
+                                          </p>
+                                          <p>
+                                             Ниши:
+                                             -Маркетинговое агентство,
+                                             -сезонная товарка оптом
+                                          </p>
+                                          <p>
+                                             Достижения:
+                                             -3 года получал клиентов только по рекомендации других клиентов, без
+                                          </p>
+                                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur est
+                                             vel, voluptatem earum consequatur aperiam explicabo nesciunt nemo mollitia
+                                             qui labore possimus enim amet officiis distinctio. Quidem modi autem
+                                             voluptate.
+                                          </p>
+                                          <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad cum
+                                             explicabo itaque, doloribus, nemo, necessitatibus quibusdam consequuntur ut
+                                             porro officia magni? Culpa provident natus omnis illum molestias.
+                                             Consequatur, eveniet?
+                                          </p>
+                                          <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad cum
+                                             explicabo itaque, doloribus, nemo, necessitatibus quibusdam consequuntur ut
+                                             porro officia magni? Culpa provident natus omnis illum molestias.
+                                             Consequatur, eveniet?
+                                          </p>
+                                          <p>
+                                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad cum
+                                             explicabo itaque, doloribus, nemo, necessitatibus quibusdam consequuntur ut
+                                             porro officia magni? Culpa provident natus omnis illum molestias.
+                                             Consequatur, eveniet?
+                                          </p>
+                                       </div>
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+
+               </div>
+               <div class="rules-form-item">
+                  <div class="rules-form-item-point">
+                     <label class="rules-form-label">
+                        Ты сделал свой выбор!
+                     </label>
+                     <div class="rules-form-text">
+                        Если у тебя нет сомнений - смело жми на кнопку “Отправить”.
+                        Напоминаем, что ссылка на регистрацию закроется в 17:30 14.12.2020
+                     </div>
+                  </div>
+               </div>
+               <button class="rules-form-btn">Отправить</button>
+         </div>
+         </form>
+   </div>
+   </section>
+   </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="js/script.js"></script>
+</body>
+
+</html>
