@@ -1,23 +1,34 @@
-var header = document.getElementById("myDIV");
-var btns = header.getElementsByClassName("rules-form-column");
-for (var i = 0; i < btns.length; i++) {
-   btns[i].addEventListener("click", function () {
-      var current = document.getElementsByClassName("active");
-      current[0].className = current[0].className.replace(" active", "");
-      this.className += " active";
+const checkLine = document.querySelector(".check-line");
+const progress = document.querySelector(".block__progress div");
+
+checkLine.addEventListener("click", (e) => {
+   e.preventdefault;
+
+   if (e.target.dataset.radio) {
+      console.log(e.target.dataset.radio);
+      progress.style.width = e.target.dataset.radio + "%";
+   }
+});
+
+console.log(checkLine);
+
+
+var jsTriggers = document.querySelectorAll('.js-tab-trigger');
+
+jsTriggers.forEach(function (item, i) {
+   item.addEventListener('click', function () {
+      var tabName = this.dataset.tab,
+         tabContent = document.querySelector('.js-tab-content[data-tab="' + tabName + '"]');
+
+      document.querySelectorAll('.js-tab-content.active').forEach(function (item, i) {
+         item.classList.remove('active');
+      });
+
+      document.querySelectorAll('.js-tab-trigger.active').forEach(function (item, i) {
+         item.classList.remove('active');
+      });
+
+      tabContent.classList.add('active');
+      this.classList.add('active');
    });
-}
-// $("label")
-//    .click(function () {
-//       var nowBox = parseInt(this.htmlFor);
-//       $("#" + nowBox + "box").prop("checked", false)
-//       while (nowBox != 1) {
-//          nowBox--;
-//          $("#" + nowBox + "box").prop("checked", true)
-//       }
-//       nowBox = parseInt(this.htmlFor)
-//       while (nowBox != 6) {
-//          nowBox++;
-//          $("#" + nowBox + "box").prop("checked", false)
-//       }
-//    })
+})
