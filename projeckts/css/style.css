@@ -884,14 +884,13 @@ header {
   margin: 0 auto;
 }
 .coaching-item {
-    width: 100%;
-    max-width: 1115px;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px 6px #e9e7e7;
-    padding: 30px 20px;
-    transition: all .4s linear;
-    margin: 0 auto;
-    margin-bottom: 30px;
+  max-width: 1115px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 6px #e9e7e7;
+  padding: 30px 20px;
+  transition: all .4s linear;
+  margin: 0 auto;
+  margin-bottom: 30px;
 }
 .coaching-item:hover{
   transform: translate3d(0, -15px, 0);
@@ -1005,7 +1004,6 @@ header {
   padding-top: 5px;
 }
 .rating-item{
-  width: 100%;
   max-width: 995px;
   border-radius: 20px;
   box-shadow: 0px 0px 10px 6px #e9e7e7;
