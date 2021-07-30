@@ -51,6 +51,7 @@ label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+      align-content: flex-end;
       min-height: 100vh;
 }
 
@@ -66,7 +67,7 @@ label {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-height: 100%;
+  min-height: 77%;
 }
 
 .images {
