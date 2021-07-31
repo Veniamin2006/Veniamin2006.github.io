@@ -443,8 +443,15 @@ label {
   .about__info {
     margin-bottom: 30px;
   }
-  .contacts {
-    margin-top: 10px;
+  .contacts,
+  .consruction,
+  .about{
+    margin-top: 20px;
+  }
+  .consruction__inner,
+  .contacts__inner,
+  .about__inner{
+        align-items: flex-start;
   }
 }
 
