@@ -438,10 +438,8 @@ label {
   }
 }
 
-@media (min-height: 700px) {
+@media (min-height: 600px) {
   .images {
-    width: 50%;
+    width: 58%;
   }
 }
-
-
