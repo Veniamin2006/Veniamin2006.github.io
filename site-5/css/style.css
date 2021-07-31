@@ -1,4 +1,5 @@
 ?v=111
+
 body {
   padding: 0;
   margin: 0;
@@ -36,12 +37,6 @@ label {
   display: block;
 }
 
-.container {
-  width: 100%;
-  max-width: 1950px;
-  margin: 0 auto;
-}
-
 .wrapper {
   overflow: hidden;
   height: 100%;
@@ -51,13 +46,10 @@ label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-      align-content: flex-end;
-      min-height: 100vh;
 }
 
 .info {
   width: 100%;
-  max-width: 1010px;
   background: url(../images/bg.png) no-repeat center top/cover;
   padding: 0 30px;
   display: -webkit-box;
@@ -67,12 +59,11 @@ label {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-height: 77%;
+  min-height: 100vh;
 }
 
 .images {
   width: 100%;
-  max-width: 912px;
 }
 
 .images img {
@@ -109,6 +100,8 @@ label {
 .about {
   padding: 84px 0 44px 0;
   text-align: center;
+  min-height: 327px;
+  margin: auto;
 }
 
 .about__inner {
@@ -190,6 +183,8 @@ label {
 .contacts {
   padding: 259px 0 294px 0;
   text-align: center;
+  min-height: 327px;
+  margin: auto;
 }
 
 .contacts__inner {
@@ -209,7 +204,6 @@ label {
       -ms-flex-align: center;
           align-items: center;
   margin: 0 auto;
-  min-height: 327px;
 }
 
 .contacts__logo {
@@ -264,8 +258,10 @@ label {
 }
 
 .consruction {
-  padding: 259px 0 320px 0;
+  padding: 50px 0;
   text-align: center;
+  min-height: 327px;
+  margin: auto;
 }
 
 .consruction__inner {
