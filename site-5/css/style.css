@@ -436,6 +436,11 @@ label {
   }
   .about__info-text {
     font-size: 18px;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  .about__info {
+    margin-bottom: 30px;
   }
 }
 
@@ -471,7 +476,7 @@ label {
   }
   .consruction__text,
   .contacts__text {
-    font-size: 15px;
+    font-size: 16px;
   }
   .consruction {
     padding: 5px 0;
