@@ -475,9 +475,6 @@ body {
  }
  
  @media (max-width: 416px) {
-	.consruction {
-	  padding: 50px 0;
-	}
 	.consruction__logo {
 	  margin-bottom: 38px;
 	}
@@ -488,7 +485,9 @@ body {
 	.contacts__text {
 	  font-size: 16px;
 	}
-	.consruction {
+	.consruction,
+	 .contacts,
+	 .about{
 	  padding: 5px 0;
 	}
  }
