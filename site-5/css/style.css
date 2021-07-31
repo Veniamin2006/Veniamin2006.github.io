@@ -438,9 +438,10 @@ label {
   }
 }
 
-@media (min-height: 980px) {
+@media (min-height: 700px) {
   .images {
     width: 50%;
   }
 }
+
 
