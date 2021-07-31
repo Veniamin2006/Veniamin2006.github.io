@@ -953,6 +953,12 @@ body {
 	.about__inner{
 			justify-content: flex-start;
 	}
+.consruction{
+	max-height: 320px;
+}
+.info{
+	min-height: 90vh;
+}
  }
  
  @media (max-width: 475px) {
