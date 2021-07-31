@@ -1,4 +1,3 @@
-?v=111
 body {
   padding: 0;
   margin: 0;
@@ -400,7 +399,8 @@ label {
     padding: 0 15px;
   }
   .about__content {
-    height: 270px;
+    height: 100%;
+    overflow: hidden;
   }
   .about__logo {
     margin-bottom: 25px;
@@ -498,6 +498,3 @@ label {
     width: 100%;
   }
 }
-
-
-
