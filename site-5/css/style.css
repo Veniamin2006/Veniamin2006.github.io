@@ -47,7 +47,7 @@ label {
 }
 
 .info {
-  width: 100%;
+  width: 60%;
   background: url(../images/bg.png) no-repeat center top/cover;
   padding: 0 30px;
   display: -webkit-box;
@@ -353,6 +353,7 @@ label {
     height: 317px;
   }
   .info {
+    width: 100%;
     max-width: 100%;
   }
   .header__menu-list {
@@ -467,8 +468,7 @@ label {
   .consruction {
     padding: 50px 0;
   }
-  .consruction__logo,
-  .about__logo {
+  .consruction__logo {
     margin-bottom: 38px;
   }
   .consruction__title {
@@ -498,8 +498,3 @@ label {
   }
 }
 
-@media (max-width: 1200px) and (min-height: 600px) {
-  .images {
-    width: 100%;
-  }
-}
