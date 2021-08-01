@@ -281,7 +281,21 @@ body {
 	margin: 0 auto;
 	min-height: 327px;
  }
+ .about__content::-webkit-scrollbar {
+	width: 5px;
+	background-color: transparent;
+ }
  
+ .about__content::-webkit-scrollbar-track {
+	background-color: #ccc;
+	border: 4px solid transparent;
+	background-clip: content-box;
+ }
+ 
+ .about__content::-webkit-scrollbar-thumb {
+    background-color: #eeb26df3;
+    border-radius: 8%;
+ }
  .consruction__logo {
 	margin-bottom: 77px;
  }
@@ -391,7 +405,7 @@ body {
 	.consruction__logo,
 	.contacts__logo,
 	.about__logo {
-	  margin-bottom: 64px;
+	  margin-bottom: 22px;
 	}
 	.consruction__text,
 	.contacts__text {
@@ -489,7 +503,7 @@ body {
 	.consruction,
 	 .contacts,
 	 .about{
-	  padding: 5px 0;
+	  padding: 22px 0;
 	}
  }
  
@@ -555,7 +569,7 @@ body {
 	.consruction__logo,
 	.contacts__logo,
 	.about__logo {
-	  margin-bottom: 64px;
+	  margin-bottom: 22px;
 	}
 	.consruction__text,
 	.contacts__text {
@@ -572,58 +586,7 @@ body {
 	  margin-bottom: 25px;
 	}
  }
- 
- @media (max-width: 520px) {
-	.contacts__data {
-	  -webkit-box-orient: vertical;
-	  -webkit-box-direction: normal;
-			-ms-flex-direction: column;
-				 flex-direction: column;
-	}
-	.contacts__data-item {
-	  margin: 0 0 34px 0;
-	}
-	.contacts__data-item:last-child {
-	  margin-bottom: 0;
-	}
-	.contacts__logo,
-	.contacts__text,
-	.about__logo {
-	  margin-bottom: 25px;
-	}
-	.contacts {
-	  padding-top: 25px;
-	}
-	.about__info-title {
-	  font-size: 24px;
-	}
-	.about__info-text {
-	  font-size: 18px;
-	  text-align: left;
-	  margin-bottom: 15px;
-	}
-	.about__info {
-	  margin-bottom: 30px;
-	}
-	.contacts,
-	.consruction,
-	.about{
-	  margin-top: 60px;
-	  padding-top: 5px;
-	}
-	.consruction__inner,
-	.contacts__inner,
-	.about__inner{
-			justify-content: flex-start;
-	}
-.consruction{
-	max-height: 320px;
-}
-.info{
-	min-height: 90vh;
-}
- }
- 
+
  @media (max-width: 475px) {
 	.consruction__title {
 	  font-size: 30px;
