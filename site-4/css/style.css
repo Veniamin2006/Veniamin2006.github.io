@@ -435,6 +435,7 @@ body {
 	  -webkit-box-direction: normal;
 			-ms-flex-direction: column;
 				 flex-direction: column;
+		    margin: 46px auto 0 auto;
 	}
 	.contacts__data-item {
 	  margin: 0 0 34px 0;
