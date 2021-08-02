@@ -1,0 +1,19 @@
+@font-face {
+	font-family: "Raleway";
+	src: url("../fonts/");
+	src: local("../fonts/Raleway ExtraBold"), local("../fonts/Raleway-ExtraBold"),
+		url("../fonts/?#iefix") format("embedded-opentype"), url("../fonts/Raleway-ExtraBold.woff") format("woff"),
+		url("../fonts/Raleway-ExtraBold.ttf") format("truetype");
+	font-weight: 800;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Ahellya";
+	src: url("../fonts/Ahellya-Italic.eot");
+	src: local("Ahellya Italic"), local("Ahellya-Italic"),
+		url("../fonts/Ahellya-Italic.eot?#iefix") format("embedded-opentype"),
+		url("../fonts/Ahellya-Italic.woff2") format("woff2"), url("../fonts/Ahellya-Italic.woff") format("woff"),
+		url("../fonts/Ahellya-Italic.ttf") format("truetype");
+	font-weight: normal;
+	font-style: italic;
+}
