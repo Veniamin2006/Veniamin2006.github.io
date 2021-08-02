@@ -38,6 +38,7 @@ body {
  .wrapper {
 	overflow: hidden;
 	height: 100%;
+	display: flex;
  }
  
  .inner {
@@ -367,7 +368,6 @@ body {
 	.images {
 		width: 100%;
 	  max-width: 100% !important;
-	  height: 510px;
 	}
 	.info {
 	  width: 100%;
