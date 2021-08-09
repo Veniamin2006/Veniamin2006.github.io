@@ -781,7 +781,8 @@ a {
 	}
 	.digitize-items-content {
 		transform: rotateZ(90deg);
-		margin-top: 91px;
+		margin-top: 87px;
+		z-index: -1;
 	}
 	.digitize-items-info {
 		transform: rotateZ(90deg);
