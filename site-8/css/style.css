@@ -787,7 +787,7 @@ a {
 	.digitize-items-info {
 		transform: rotateZ(90deg);
 		margin: 39px 0;
-		z-index: -1;
+		z-index: -2;
 	}
 	.digitize {
 		padding-bottom: 148px;
