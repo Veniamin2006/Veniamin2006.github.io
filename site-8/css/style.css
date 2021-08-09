@@ -26,7 +26,7 @@ ol {
 p {
 	margin: 0;
 }
-a{
+a {
 	text-decoration: none;
 }
 img {
@@ -786,7 +786,7 @@ a {
 	.footer-inner {
 		flex-direction: column;
 	}
-	.footer-logo{
+	.footer-logo {
 		margin: 0 0 10px 0;
 	}
 }
@@ -823,7 +823,7 @@ a {
 	.faq {
 		padding: 58px 0;
 	}
-	.literature{
+	.literature {
 		padding: 50px 0 36px 0;
 	}
 }
@@ -833,28 +833,30 @@ a {
 	.price-card {
 		max-width: 100%;
 	}
-}
-@media(max-width: 400px){
-	.footer-menu-list{
+	.footer-bottom {
+		text-align: center;
 		flex-direction: column;
 		justify-content: center;
 	}
-	.footer-menu-item{
+}
+@media (max-width: 400px) {
+	.footer-menu-list {
+		flex-direction: column;
+		justify-content: center;
+	}
+	.footer-menu-item {
 		margin-right: 0;
 		text-align: center;
 		margin-bottom: 20px;
 	}
-	.footer-menu-item:last-child{
+	.footer-menu-item:last-child {
 		margin-bottom: 0;
 	}
-	.footer-bottom{
-		text-align: center;
-		justify-content: center;
-	}
-	.footer-copy{
+
+	.footer-copy {
 		margin-bottom: 20px;
 	}
-	.footer-inner{
+	.footer-inner {
 		margin-bottom: 0;
 	}
 }
