@@ -1,0 +1,2035 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Главная</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="shortcut icon" href="favicon.ico">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Open+Sans:wght@300;400;700&family=Raleway:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@400;700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+   <div class="wrapper">
+      <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <div class="header__logo">
+        <a href="index.html" class="header__logo-link">
+          <img src="img/logo.svg" alt="Logo">
+        </a>
+        <div class="header__logo-descr">
+          <span>EKTA сервіс</span> - це компанія, завдяки якій ваша техніка буде завжди у безпеці
+        </div>
+      </div>
+      <div class="header__info">
+        <div class="header__phone">
+          <span class="header__phone-descr">Щодня з 9:00 до 21:00</span>
+          <a href="tel:0800305122" class="header__phone-link">
+            <svg width="14" height="20" viewBox="0 0 14 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.36291 0.438987L3.4395 0.09498C4.44832 -0.227371 5.52617 0.293579 5.95819 1.31232L6.81793 3.33967C7.19258 4.22312 6.98468 5.26203 6.30395 5.90815L4.40963 7.70616C4.52651 8.78164 4.88802 9.84064 5.49416 10.8832C6.1003 11.9257 6.85732 12.7905 7.76522 13.4776L10.0404 12.7189C10.9028 12.4313 11.842 12.7618 12.371 13.539L13.6034 15.3495C14.2183 16.2529 14.1077 17.4993 13.3447 18.2653L12.527 19.0862C11.713 19.9033 10.5505 20.1997 9.47508 19.8643C6.93623 19.0723 4.60191 16.7211 2.47214 12.8107C0.339269 8.89448 -0.41348 5.57189 0.213892 2.84289C0.477888 1.69457 1.2954 0.780091 2.36291 0.438987Z"
+                fill="#503B5C" />
+            </svg>
+            <span>
+              0 800 305-122
+              <div class="header__phone-drpd">
+                <p>(044) 384-34-49</p>
+              </div>
+            </span>
+          </a>
+        </div>
+        <!-- <div class="header__languages sl-nav">
+          <ul class="header__languages-wrapp sl-nav-wrapp">
+            <li class="header__languages-item sl-nav-item">
+              <div class="header__languages-point">
+                <img src="img/ua.svg" alt="UA">
+                <span>UA</span>
+              </div>
+              <div class="triangle"></div>
+              <ul class="header__languages-wrapper lang-wrapper">
+                <li class="header__languages-items lang-items">
+                  <div id="germany"></div>
+                  <a href="index.html">
+                    <img src="img/ua.svg" alt="UA">
+                    <span class="active">UA</span>
+                  </a>
+                </li>
+                <li class="header__languages-items lang-items">
+                  <div id="germany"></div>
+                  <img src="img/ru.svg" alt="RU">
+                  <a href="/ru/">
+                    <span>RU</span>
+                  </a>
+                </li>
+                <li class="header__languages-items lang-items">
+                  <div id="germany"></div>
+                  <a href="/en/">
+                    <img src="img/en.svg" alt="EN">
+                    <span>EN</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div> -->
+        <button class="header__btn btn">Зламався гаджет?</button>
+        <div class="header__accounts">
+          <span>
+            <div class="header__accounts-menu">
+              <button>Особистий кабінет</button>
+              <div class="header__accounts-drpd">
+                <a href="#enter" class="header__accounts-link">Вхід</a>
+                <div></div>
+                <a href="#reg" class="header__accounts-link">Реєстрація</a>
+
+              </div>
+            </div>
+          </span>
+          <svg width="17" height="20" viewBox="0 0 17 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M13.7542 11.9999C14.9962 11.9999 16.003 13.0068 16.003 14.2488V14.8242C16.003 15.7185 15.6835 16.5833 15.1019 17.2627C13.5326 19.0962 11.1454 20.0011 8 20.0011C4.85414 20.0011 2.46812 19.0959 0.90182 17.2617C0.322059 16.5828 0.00354004 15.7193 0.00354004 14.8265V14.2488C0.00354004 13.0068 1.0104 11.9999 2.25242 11.9999H13.7542ZM13.7542 13.4999H2.25242C1.83882 13.4999 1.50354 13.8352 1.50354 14.2488V14.8265C1.50354 15.3622 1.69465 15.8802 2.04251 16.2876C3.29582 17.7553 5.26169 18.5011 8 18.5011C10.7383 18.5011 12.7059 17.7553 13.9624 16.2873C14.3113 15.8797 14.503 15.3608 14.503 14.8242V14.2488C14.503 13.8352 14.1678 13.4999 13.7542 13.4999ZM8 0.00463867C10.7614 0.00463867 13 2.24321 13 5.00464C13 7.76606 10.7614 10.0046 8 10.0046C5.23857 10.0046 3 7.76606 3 5.00464C3 2.24321 5.23857 0.00463867 8 0.00463867ZM8 1.50464C6.067 1.50464 4.5 3.07164 4.5 5.00464C4.5 6.93764 6.067 8.50464 8 8.50464C9.93299 8.50464 11.5 6.93764 11.5 5.00464C11.5 3.07164 9.93299 1.50464 8 1.50464Z"
+              fill="#4AC6E1" />
+          </svg>
+        </div>
+        <div class="header__languages sl-nav">
+          <ul class="header__languages-wrapp sl-nav-wrapp">
+            <li class="header__languages-item sl-nav-item">
+              <div class="header__languages-point">
+                <img src="img/ua.svg" alt="UA">
+                <span>UA</span>
+              </div>
+              <div class="triangle"></div>
+              <ul class="header__languages-wrapper lang-wrapper">
+                <li class="header__languages-items lang-items">
+                  <div id="germany"></div>
+                  <a href="index.html">
+                    <img src="img/ua.svg" alt="UA">
+                    <span class="active">UA</span>
+                  </a>
+                </li>
+                <li class="header__languages-items lang-items">
+                  <div id="germany"></div>
+                  <img src="img/ru.svg" alt="RU">
+                  <a href="/ru/">
+                    <span>RU</span>
+                  </a>
+                </li>
+                <li class="header__languages-items lang-items">
+                  <div id="germany"></div>
+                  <a href="/en/">
+                    <img src="img/en.svg" alt="EN">
+                    <span>EN</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="header__burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="header__menu">
+    <ul class="header__menu-list">
+      <li class="header__menu-item">
+        <a href="#" class="header__menu-link">Послуги</a>
+      </li>
+    </ul>
+    <ul class="header__menu-list">
+      <li class="header__menu-item">
+        <a href="#" class="header__menu-link">Партнери</a>
+      </li>
+    </ul>
+    <ul class="header__menu-list">
+      <li class="header__menu-item">
+        <a href="#" class="header__menu-link">Про компанію</a>
+      </li>
+    </ul>
+    <ul class="header__menu-list">
+      <li class="header__menu-item">
+        <a href="#" class="header__menu-link">Що ремонтуємо</a>
+      </li>
+    </ul>
+    <ul class="header__menu-list">
+      <li class="header__menu-item">
+        <a href="#" class="header__menu-link">Додаткові сервіси</a>
+      </li>
+    </ul>
+    <ul class="header__menu-list">
+      <li class="header__menu-item">
+        <a href="#" class="header__menu-link">Документи</a>
+      </li>
+    </ul>
+    <ul class="header__menu-list">
+      <li class="header__menu-item">
+        <a href="#" class="header__menu-link">Блог</a>
+      </li>
+    </ul>
+    <ul class="header__menu-list">
+      <li class="header__menu-item">
+        <a href="#" class="header__menu-link">Відгуки</a>
+      </li>
+    </ul>
+    <ul class="header__menu-list">
+      <li class="header__menu-item">
+        <a href="#" class="header__menu-link">Контакти</a>
+      </li>
+    </ul>
+    <ul class="header__menu-list">
+      <li class="header__menu-item">
+
+        <d class="header__menu-link" iv>
+    </ul>
+  </nav>
+
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+</header>
+      <main class="page">
+         <section class="hero">
+            <div class="container">
+               <div class="hero__inner">
+                  <div class="hero__info">
+                     <div class="hero__overtitle">
+                        <span class="hero__overtitle-line"></span>
+                        <span>EKTA SERVICE</span>
+                     </div>
+                     <h1 class="hero__title">
+                        Страхування будь-якої
+                        вашої техніки — <span>смартфони</span>
+                     </h1>
+                     <p class="hero__descr">
+                        Гарантія якості, захист від механічних пошкоджень та підтримка 24/7
+                     </p>
+                     <div class="hero__items">
+                        <div class="hero__item">
+                           <div class="hero__item-icon">
+                              <img src="img/hero-1.svg" alt="Ремонт в день звернення">
+                           </div>
+                           <div class="hero__item-descr">
+                              Ремонт в день звернення
+                           </div>
+                        </div>
+                        <div class="hero__item">
+                           <div class="hero__item-icon">
+                              <img src="img/hero-2.svg" alt="Усунення будь-яких несправностей">
+                           </div>
+                           <div class="hero__item-descr">
+                              Усунення будь-яких несправностей
+                           </div>
+                        </div>
+                        <div class="hero__item">
+                           <div class="hero__item-icon">
+                              <img src="img/hero-3.svg" alt="Оригінальні запчастини">
+                           </div>
+                           <div class="hero__item-descr">
+                              Оригінальні запчастини
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="hero__phone">
+                     <img src="img/hero-phone.svg" alt="Phone">
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="insurance">
+            <div class="container">
+               <h2 class="insurance__title title">
+                  <span>WOW</span> — це страхування твого смартфона
+						<div class="sideimg">
+							<img src="./img/WOW.svg" alt="services">
+						</div>
+               </h2>
+               <div class="insurance__inner">
+                  <div class="insurance__photo">
+                     <img src="img/insurance-phone.svg" alt="Телефон">
+                  </div>
+                  <div class="insurance__info">
+                     <div class="insurance__item">
+                        <div class="insurance__item-descr">
+                           Ремонт та сервіс будь-якого смартфона всього
+                        </div>
+                        <div class="insurance__item-price">
+                           <span class="insurance__item-spans">150</span> грн<br><span
+                              class="insurance__item-span">/місяць</span>
+										<span>
+											<button class="insurance__item-btn">
+												Оформити
+											</button>
+										</span>
+                        </div>
+                     </div>
+                     <div class="insurance__item">
+                        <div class="insurance__item-descr">
+                           Застрахувати будь яку техніку за підпискою
+                        </div>
+                        <div class="insurance__item-price">
+                           <span class="insurance__item-spans">200</span> грн<br>
+                           <span class="insurance__item-span">/місяць</span>
+									<span>
+										<button class="insurance__item-btn">
+											Оформити
+										</button>
+									</span>
+                        </div>
+                     </div>
+                     <button class="insurance__btn btn">
+                        Оформлюйте підписку
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="services">
+				
+            <div class="container">
+               <h2 class="services__title title">
+                  Про послуги для вашої <span>техніки</span>
+						<div class="sideimg">
+							<img src="./img/services.svg" alt="services">
+						</div>
+               </h2>
+               <div class="services__wrapper swiper mySwiper">
+                  <div class="services__items swiper-wrapper">
+                     <div class="swiper-pagination"></div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-1.png" alt="Велика побутова техніка">
+                        </div>
+                        <div class="services__item-descr">
+                           Велика побутова <span>техніка</span>
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-2.png" alt="Телевізори, монітори">
+                        </div>
+                        <div class="services__item-descr">
+                           Телевізори, <span>монітори</span>
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-3.png" alt="Смартфони, планшети, ноутбуки, аксесуари">
+                        </div>
+                        <div class="services__item-descr">
+                           Смартфони, планшети, <span>ноутбуки</span>
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-4.png" alt="Послуги щодо встановлення техніки">
+                        </div>
+                        <div class="services__item-descr">
+                           <span>Послуги</span> щодо встановлення техніки
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-5.png" alt="Страхування іграшок">
+                        </div>
+                        <div class="services__item-descr">
+                           Страхування <span>іграшок</span>
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-6.png" alt="Ремонт техніки">
+                        </div>
+                        <div class="services__item-descr">
+                           Ремонт техніки
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-7.png" alt="Дрони, моноколеса и т.д">
+                        </div>
+                        <div class="services__item-descr">
+                           Дрони, моноколеса и т.д
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+							<div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-1.png" alt="Велика побутова техніка">
+                        </div>
+                        <div class="services__item-descr">
+                           Велика побутова <span>техніка</span>
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-2.png" alt="Телевізори, монітори">
+                        </div>
+                        <div class="services__item-descr">
+                           Телевізори, <span>монітори</span>
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-3.png" alt="Смартфони, планшети, ноутбуки, аксесуари">
+                        </div>
+                        <div class="services__item-descr">
+                           Смартфони, планшети, <span>ноутбуки</span>
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-4.png" alt="Послуги щодо встановлення техніки">
+                        </div>
+                        <div class="services__item-descr">
+                           <span>Послуги</span> щодо встановлення техніки
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-5.png" alt="Страхування іграшок">
+                        </div>
+                        <div class="services__item-descr">
+                           Страхування <span>іграшок</span>
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-6.png" alt="Ремонт техніки">
+                        </div>
+                        <div class="services__item-descr">
+                           Ремонт техніки
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-7.png" alt="Дрони, моноколеса и т.д">
+                        </div>
+                        <div class="services__item-descr">
+                           Дрони, моноколеса и т.д
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+							<div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-1.png" alt="Велика побутова техніка">
+                        </div>
+                        <div class="services__item-descr">
+                           Велика побутова <span>техніка</span>
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-2.png" alt="Телевізори, монітори">
+                        </div>
+                        <div class="services__item-descr">
+                           Телевізори, <span>монітори</span>
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-3.png" alt="Смартфони, планшети, ноутбуки, аксесуари">
+                        </div>
+                        <div class="services__item-descr">
+                           Смартфони, планшети, <span>ноутбуки</span>
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-4.png" alt="Послуги щодо встановлення техніки">
+                        </div>
+                        <div class="services__item-descr">
+                           <span>Послуги</span> щодо встановлення техніки
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-5.png" alt="Страхування іграшок">
+                        </div>
+                        <div class="services__item-descr">
+                           Страхування <span>іграшок</span>
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-6.png" alt="Ремонт техніки">
+                        </div>
+                        <div class="services__item-descr">
+                           Ремонт техніки
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-7.png" alt="Дрони, моноколеса и т.д">
+                        </div>
+                        <div class="services__item-descr">
+                           Дрони, моноколеса и т.д
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+							<div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-1.png" alt="Велика побутова техніка">
+                        </div>
+                        <div class="services__item-descr">
+                           Велика побутова <span>техніка</span>
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-2.png" alt="Телевізори, монітори">
+                        </div>
+                        <div class="services__item-descr">
+                           Телевізори, <span>монітори</span>
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-3.png" alt="Смартфони, планшети, ноутбуки, аксесуари">
+                        </div>
+                        <div class="services__item-descr">
+                           Смартфони,планшети,<span>ноутбуки</span>
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-4.png" alt="Послуги щодо встановлення техніки">
+                        </div>
+                        <div class="services__item-descr">
+                           <span>Послуги</span> щодо встановлення техніки
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-5.png" alt="Страхування іграшок">
+                        </div>
+                        <div class="services__item-descr">
+                           Страхування <span>іграшок</span>
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-6.png" alt="Ремонт техніки">
+                        </div>
+                        <div class="services__item-descr">
+                           Ремонт техніки
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-7.png" alt="Дрони, моноколеса и т.д">
+                        </div>
+                        <div class="services__item-descr">
+                           Дрони, моноколеса и т.д
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+							<div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-1.png" alt="Велика побутова техніка">
+                        </div>
+                        <div class="services__item-descr">
+                           Велика побутова <span>техніка</span>
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-2.png" alt="Телевізори, монітори">
+                        </div>
+                        <div class="services__item-descr">
+                           Телевізори, <span>монітори</span>
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-3.png" alt="Смартфони, планшети, ноутбуки, аксесуари">
+                        </div>
+                        <div class="services__item-descr">
+                           Смартфони, планшети, <span>ноутбуки</span>
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-4.png" alt="Послуги щодо встановлення техніки">
+                        </div>
+                        <div class="services__item-descr">
+                           <span>Послуги</span> щодо встановлення техніки
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-5.png" alt="Страхування іграшок">
+                        </div>
+                        <div class="services__item-descr">
+                           Страхування <span>іграшок</span>
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-6.png" alt="Ремонт техніки">
+                        </div>
+                        <div class="services__item-descr">
+                           Ремонт техніки
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+                     <div class="services__item swiper-slide">
+                        <div class="services__item-icon">
+                           <img src="img/services-7.png" alt="Дрони, моноколеса и т.д">
+                        </div>
+                        <div class="services__item-descr">
+                           Дрони, моноколеса и т.д
+                        </div>
+								<button class="services__item-btn"><span>Детальніше</span></button>
+                     </div>
+               </div>
+               <div class="services__wrapp swiper-wrapp">
+                  <span class="services__line swiper-line"></span>
+                  <div class="services__buttons swiper-buttons">
+                     <div class="swiper-button-prev"></div>
+                     <div class="swiper-button-next"></div>
+                  </div>
+               </div>
+
+            </div>
+         </section>
+         <section class="what">
+            <div class="container">
+               <h4 class="what__title title">
+                  Чому обирають сервіс <span>ЕКТА?</span>
+						<div class="sideimg">
+							<img src="./img/Advantages.svg" alt="services">
+						</div>
+               </h4>
+               <div class="what__items">
+                  <div class="what__items-content" id='what_content'>
+                     <a href="#pop1" class="what__item popup-link">
+                        <h3 class="what__item-title">
+                           Ремонтуємо швидко та без затримок
+                        </h3>
+								<p class="what__item-subtitle">Ви отримуєте свою відремонтовану техніку без жодних затримок протягом 14 календарних днів після звернення</p>
+                        <div class="what__item-icon">
+                           <img src="img/what-1.png" alt="Ремонтуємо швидко та без затримок">
+                        </div>
+                     </a>
+                     <a href="pop2" class="what__item popup-link">
+                        <h3 class="what__item-title">
+                           Безкоштовна відправка та доставка техніки поштою
+                        </h3>
+								<p class="what__item-subtitle">Ви безкоштовно відправляєте нам зламану техніку “Новою Поштою” або “Justin”, як вам зручно, а після ремонту так само безкоштовно отримуєте її назад</p>
+                        <div class="what__item-icon">
+                           <img src="img/what-2.png" alt="Безкоштовна відправка та доставка техніки поштою">
+                        </div>
+                     </a>
+                     <a href="pop3" class="what__item popup-link">
+                        <h3 class="what__item-title">
+                           Гарантія на ремонт до 6 місяців
+                        </h3>
+								<p class="what__item-subtitle">Ми гарантуємо повторний ремонт техніки протягом 6 місяців після повернення вам товару, якщо та ж сама несправність з’явиться у вас знову</p>
+                        <div class="what__item-icon">
+                           <img src="img/what-3.png" alt="Гарантія на ремонт до 6 місяців">
+                        </div>
+                     </a>
+                     <a href="pop4" class="what__item popup-link">
+                        <h3 class="what__item-title">
+                           Лише оригінальні та сертифіковані запчастини
+                        </h3>
+								<p class="what__item-subtitle">Ремонт техніки в EKTA Service відбувається тільки 
+									з оригінальними та сертифікованими запчастинами, за якість яких ми несемо відповідальність</p>
+                        <div class="what__item-icon">
+                           <img src="img/what-4.png" alt="Лише оригінальні та сертифіковані запчастини">
+                        </div>
+                     </a>
+                  </div>
+                  <div class="what__items-content" id='what_content'>
+                     <div class="what__item what__item--difference">
+                        <h3 class="what__item-titlebig">
+                           Синхронізація із <br> застосунком «Дія»
+                        </h3>
+								<p class="what__item-subtitle">Під час оформлення звернення на ремонт техніки у нас вам не потрібно мати під рукою ваш паперовий паспорт. Необхідно просто підтвердити передачу ваших даних за допомогою застосунку “Дія” у вашому смартфоні</p>
+                        <div class="what__item-icon">
+                           <img src="img/what-phone.svg" alt="Синхронізація із застосунком «Дія»">
+                        </div>
+                     </div>
+                     <div class="what__item--differences what__itemcenter ">
+                        <h3 class="what__itemcenter-titlecenter">
+                           Статус ремонту в чат-боті 24/7
+                        </h3>
+								<p class="what__itemcenter-subtitlecenter">Ви можете слідкувати за кожним етапом ремонту вашої техніки у нашому чат-боті в Viber. Якщо у вас виникнуть будь-які питання, ви можете одразу звернутись до наших менеджерів онлайн у чат-боті або зателефонувати на гарячу лінію за телефоном 0 800 305 122</p>
+                        <div class="what__itemcenter-iconcenter">
+                           <img src="img/what-5.svg" alt="Статус ремонту в чат-боті 24/7">
+                        </div>
+                     </div>
+                     <div class="what__item">
+                        <h3 class="what__item-title">
+                           SMS-повідомлення про зміну статусу заявки
+                        </h3>
+								<p class="what__item-subtitle">Ми сповіщаємо вас про кожен наступний етап ремонту вашої техніки за допомогою SMS-повідомлення, щоб ви не хвилювались за неї, поки вона знаходиться у сервісному центрі</p>
+                        <div class="what__item-icon">
+                           <img src="img/what-6.png" alt="Ремонтуємо швидко та без затримок">
+                        </div>
+                     </div>
+                  </div>
+                  <div class="what__items-content" id='what_content'>
+                     <div class="what__item what__item--first">
+                        <h3 class="what__item-titlebig">
+                           100% повернення коштів,<br> якщо ремонт неможливий
+                        </h3>
+								<p class="what__item-subtitle">Ми повернемо всі кошти, які ви витратили на оформлення додаткової страховки від ЕКТА, якщо ми не зможемо відремонтувати ваш девайс</p>
+                        <div class="what__item-icon">
+                           <img src="img/what-7.png" alt="Ремонтуємо швидко та без затримок">
+                        </div>
+                     </div>
+                     <div class="what__item what__item--last">
+                        <h3 class="what__item-titlebig">
+                           Власний сервісний центр без посередників
+                        </h3>
+								<p class="what__item-subtitle">Від інших компаній, ми працюємо без посередників, тому що маємо власний сервісний центр. З ЕКТА вам не потрібно відправляти товар бозна-куди, самостійно сплачувати ремонт техніки, а потім ще 14 днів чекати на компенсацію коштів. 
+									Варто лише зареєструвати звернення, безкоштовно відправити нам зламаний пристрій поштою і протягом двох тижнів так само безкоштовно отримати вже відремонтовану техніку.
+								</p>
+                        <div class="what__item-icon">
+                           <img src="img/what-8.png" alt="Ремонтуємо швидко та без затримок">
+                        </div>
+                     </div>
+                  </div>
+						<a href="#" class='what__load' id="loadMore">Показати ще</a>
+               </div>
+            </div>
+         </section>
+         <section class="partners">
+            <div class="container">
+               <h2 class="partners__title title">
+                  Партнери
+						<div class="sideimg">
+							<img src="./img/Partners.svg" alt="services">
+						</div>
+               </h2>
+               <div class="partners__items swiper swiperMy">
+                  <div class="partners__wrapper swiper-wrapper">
+                     <div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           Епіцентр
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-1.svg" alt="Епіцентр">
+                        </div>
+                     </div>
+                     <div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           Нова пошта
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-2.svg" alt="Нова пошта">
+                        </div>
+                     </div>
+                     <div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           ЖЖУК
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-3.svg" alt="ЖЖУК">
+                        </div>
+                     </div>
+                     <div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           COMFY
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-4.svg" alt="COMFY">
+                        </div>
+                     </div>
+                     <div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           ВУХО.Ком
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-5.svg" alt="COMFY">
+                        </div>
+                     </div>
+							<div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           Епіцентр
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-1.svg" alt="Епіцентр">
+                        </div>
+                     </div>
+                     <div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           Нова пошта
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-2.svg" alt="Нова пошта">
+                        </div>
+                     </div>
+                     <div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           ЖЖУК
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-3.svg" alt="ЖЖУК">
+                        </div>
+                     </div>
+                     <div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           COMFY
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-4.svg" alt="COMFY">
+                        </div>
+                     </div>
+                     <div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           ВУХО.Ком
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-5.svg" alt="COMFY">
+                        </div>
+                     </div>
+							<div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           Епіцентр
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-1.svg" alt="Епіцентр">
+                        </div>
+                     </div>
+                     <div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           Нова пошта
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-2.svg" alt="Нова пошта">
+                        </div>
+                     </div>
+                     <div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           ЖЖУК
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-3.svg" alt="ЖЖУК">
+                        </div>
+                     </div>
+                     <div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           COMFY
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-4.svg" alt="COMFY">
+                        </div>
+                     </div>
+                     <div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           ВУХО.Ком
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-5.svg" alt="COMFY">
+                        </div>
+                     </div>
+							<div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           Епіцентр
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-1.svg" alt="Епіцентр">
+                        </div>
+                     </div>
+                     <div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           Нова пошта
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-2.svg" alt="Нова пошта">
+                        </div>
+                     </div>
+                     <div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           ЖЖУК
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-3.svg" alt="ЖЖУК">
+                        </div>
+                     </div>
+                     <div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           COMFY
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-4.svg" alt="COMFY">
+                        </div>
+                     </div>
+                     <div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           ВУХО.Ком
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-5.svg" alt="COMFY">
+                        </div>
+                     </div>
+							<div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           Епіцентр
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-1.svg" alt="Епіцентр">
+                        </div>
+                     </div>
+                     <div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           Нова пошта
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-2.svg" alt="Нова пошта">
+                        </div>
+                     </div>
+                     <div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           ЖЖУК
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-3.svg" alt="ЖЖУК">
+                        </div>
+                     </div>
+                     <div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           COMFY
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-4.svg" alt="COMFY">
+                        </div>
+                     </div>
+                     <div class="partners__item swiper-slide">
+                        <div class="partners__item-title">
+                           ВУХО.Ком
+                        </div>
+                        <div class="partners__item-logo">
+                           <img src="img/partners-5.svg" alt="COMFY">
+                        </div>
+                     </div>
+                     
+                  </div>
+                  <div class="services__wrapp swiper-wrapp">
+                     <span class="services__line swiper-line"></span>
+                     <div class="services__buttons swiper-buttons">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="scheme">
+            <div class="container">
+               <h2 class="scheme__title title">
+                  Схема надання <span>послуг</span>
+						<div class="sideimg">
+							<img src="./img/Scheme.svg" alt="services">
+						</div>
+               </h2>
+               <div class="scheme__items">
+                  <div class="scheme__items-top">
+                     <div class="scheme__item scheme__item--first">
+                        <div class="scheme__item-icon">
+                           <img src="img/scheme-1.svg" alt="Крок перший">
+                        </div>
+                        <div class="scheme__item-info">
+                           <h4 class="scheme__item-title">
+                              Крок перший
+                           </h4>
+                           <p class="scheme__item-text">
+                              Виникла халепа
+                           </p>
+                        </div>
+                     </div>
+                     <div class="scheme__item">
+                        <div class="scheme__item-icon">
+                           <img src="img/scheme-2.svg" alt="  Третій крок">
+                        </div>
+                        <div class="scheme__item-info">
+                           <h4 class="scheme__item-title">
+                              Третій крок
+                           </h4>
+                           <p class="scheme__item-text">
+                              Надіслати техніку та копії документів Новою Поштою у сервісний центр* за рахунок
+                              отримувача (у відділенні або кур’єром додому)
+                              * відділення № 268 м. Київ, одержувач: СКЛАД "ЕКТА Сервіс"
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="scheme__items-bottom">
+                     <div class="scheme__item  scheme__item--second">
+                        <div class="scheme__item-icon">
+                           <img src="img/scheme-3.svg" alt="Крок другий">
+                        </div>
+                        <div class="scheme__item-info">
+                           <h4 class="scheme__item-title">
+                              Крок другий
+                           </h4>
+                           <p class="scheme__item-text">
+                              Звернутися на гарячу лінію<br>0 800 305 122 та зафіксувати<br>звернення
+                           </p>
+                        </div>
+                     </div>
+                     <div class="scheme__item scheme__item--third">
+                        <div class="scheme__item-icon">
+                           <img src="img/scheme-4.svg" alt="Крок четвертий">
+                        </div>
+                        <div class="scheme__item-info">
+                           <h4 class="scheme__item-title">
+                              Крок четвертий
+                           </h4>
+                           <p class="scheme__item-text">
+                              Отримати відремонтовану техніку<br>
+                              (у відділенні Нової Пошти або кур’єром<br>додому)
+                           </p>
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="scheme__items scheme__items--mobail">
+                  <div class="scheme__items-top">
+                     <div class="scheme__item scheme__item--first">
+                        <div class="scheme__item-icon">
+                           <img src="img/scheme-1.svg" alt="Крок перший">
+                        </div>
+                        <div class="scheme__item-info">
+                           <h4 class="scheme__item-title">
+                              Крок перший
+                           </h4>
+                           <p class="scheme__item-text">
+                              Виникла халепа
+                           </p>
+                        </div>
+                     </div>
+                     <div class="scheme__item scheme__item--seconds">
+                        <div class="scheme__item-icon">
+                           <img src="img/scheme-3.svg" alt="Крок другий">
+                        </div>
+                        <div class="scheme__item-info">
+                           <h4 class="scheme__item-title">
+                              Крок другий
+                           </h4>
+                           <p class="scheme__item-text">
+                              Звернутися на гарячу лінію<br>0 800 305 122 та зафіксувати<br>звернення
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="scheme__items-bottom">
+                     <div class="scheme__item scheme__item--second">
+                        <div class="scheme__item-icon">
+                           <img src="img/scheme-2.svg" alt="  Третій крок">
+                        </div>
+                        <div class="scheme__item-info">
+                           <h4 class="scheme__item-title">
+                              Третій крок
+                           </h4>
+                           <p class="scheme__item-text">
+                              Надіслати техніку та копії документів Новою Поштою у сервісний центр* за рахунок
+                              отримувача (у відділенні або кур’єром додому)
+                              * відділення № 268 м. Київ, одержувач: СКЛАД "ЕКТА Сервіс"
+                           </p>
+                        </div>
+                     </div>
+                     <div class="scheme__item scheme__item--third">
+                        <div class="scheme__item-icon">
+                           <img src="img/scheme-4.svg" alt="Крок четвертий">
+                        </div>
+                        <div class="scheme__item-info">
+                           <h4 class="scheme__item-title">
+                              Крок четвертий
+                           </h4>
+                           <p class="scheme__item-text">
+                              Отримати відремонтовану техніку<br>
+                              (у відділенні Нової Пошти або кур’єром<br>додому)
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section class="reviews">
+            <div class="container">
+               <h2 class="reviews__title title">
+                  Отзывы
+               </h2>
+               <div class="reviews__inner">
+                  <div class="reviews__items">
+                     <div class="reviews__item">
+                        <div class="reviews__item-top">
+                           <div class="reviews__item-user">
+                              <div class="reviews__item-icon">
+                                 <img src="img/reviews-1.png" alt="Маргарита Котовська">
+                              </div>
+                              <div class="reviews__item-name">
+                                 <span class="reviews__item-title">
+                                    Маргарита Котовська
+                                 </span>
+                                 <span class="reviews__item-online">
+                                    5 дней назад
+                                 </span>
+                              </div>
+                              <a href="#" class="reviews__item-google">
+                                 <img src="img/google.svg" alt="Google">
+                              </a>
+                           </div>
+                        </div>
+                        <div class="reviews__item-info">
+                           <ul class="reviews__item-rating">
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                           </ul>
+                           <p class="reviews__item-descr">
+                              Купила новий телефон в Комфі три місяці тому, до нього консультант порадив мені взяти
+                              послугу
+                              Смарт захист коштувала вона до 1000грн. Добре, що тоді не пожаліла грошей... <a
+                                 href="#">Показать больше</a>
+                           </p>
+                        </div>
+
+                     </div>
+                     <div class="reviews__item">
+                        <div class="reviews__item-top">
+                           <div class="reviews__item-user">
+                              <div class="reviews__item-icon">
+                                 <img src="img/reviews-2.png" alt="Маргарита Котовська">
+                              </div>
+                              <div class="reviews__item-name">
+                                 <span class="reviews__item-title">
+                                    Алла Бокова
+                                 </span>
+                                 <span class="reviews__item-online">
+                                    14 дней назад
+                                 </span>
+                              </div>
+                              <a href="#" class="reviews__item-google">
+                                 <img src="img/google.svg" alt="Google">
+                              </a>
+                           </div>
+                        </div>
+                        <div class="reviews__item-info">
+                           <ul class="reviews__item-rating">
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                           </ul>
+                           <p class="reviews__item-descr">
+                              Сдавала в ремонт телефон хуавей, в ЕКТА сервіс, бо почав вимикатись та не тримати зарядку.
+                              Купувала в магазині ЖЖУК, але гарантія від ЕКТА добре що вони знаходяться недалеко від
+                              метро... <a href="#">Показать больше</a>
+                           </p>
+                        </div>
+
+                     </div>
+                     <div class="reviews__item">
+                        <div class="reviews__item-top">
+                           <div class="reviews__item-user">
+                              <div class="reviews__item-icon">
+                                 <img src="img/reviews-3.png" alt="Игорь Яценко">
+                              </div>
+                              <div class="reviews__item-name">
+                                 <span class="reviews__item-title">
+                                    Игорь Яценко
+                                 </span>
+                                 <span class="reviews__item-online">
+                                    26 дней назад
+                                 </span>
+                              </div>
+                              <a href="#" class="reviews__item-google">
+                                 <img src="img/google.svg" alt="Google">
+                              </a>
+                           </div>
+                        </div>
+                        <div class="reviews__item-info">
+                           <ul class="reviews__item-rating">
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                           </ul>
+                           <p class="reviews__item-descr">
+                              машину в Комфі, зупинились на indesit, даже пів року не пройшло, буквально через три
+                              місяці
+                              при одній стірці почала витікати вода... <a href="#">Показать больше</a>
+                           </p>
+                        </div>
+
+                     </div>
+                     <div class="reviews__item">
+                        <div class="reviews__item-top">
+                           <div class="reviews__item-user">
+                              <div class="reviews__item-icon">
+                                 <img src="img/reviews-4.png" alt="Юра Бойко">
+                              </div>
+                              <div class="reviews__item-name">
+                                 <span class="reviews__item-title">
+                                    Юра Бойко
+                                 </span>
+                                 <span class="reviews__item-online">
+                                    месяц назад
+                                 </span>
+                              </div>
+                              <a href="#" class="reviews__item-google">
+                                 <img src="img/facebook.svg" alt="Facebook">
+                              </a>
+                           </div>
+                        </div>
+                        <div class="reviews__item-info">
+                           <ul class="reviews__item-rating">
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating-blue.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating-blue.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating-blue.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating-blue.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating-blue.svg" alt="rating">
+                                 </a>
+                              </li>
+                           </ul>
+                           <p class="reviews__item-descr">
+                              Покупал услугу, не помню как точно называется, вроде “умные настройки” для установки
+                              телевизора 42 дюйма смарт, приехал приятный мастер все... <a href="#">Показать больше</a>
+                           </p>
+                        </div>
+
+                     </div>
+                     <div class="reviews__item">
+                        <div class="reviews__item-top">
+                           <div class="reviews__item-user">
+                              <div class="reviews__item-icon">
+                                 <img src="img/reviews-5.png" alt="Анастасия Романова ">
+                              </div>
+                              <div class="reviews__item-name">
+                                 <span class="reviews__item-title">
+                                    Анастасия Романова
+                                 </span>
+                                 <span class="reviews__item-online">
+                                    месяц назад
+                                 </span>
+                              </div>
+                              <a href="#" class="reviews__item-google">
+                                 <img src="img/facebook.svg" alt="Facebook">
+                              </a>
+                           </div>
+                        </div>
+                        <div class="reviews__item-info">
+                           <ul class="reviews__item-rating">
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating-blue.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating-blue.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating-blue.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating-blue.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating-blue.svg" alt="rating">
+                                 </a>
+                              </li>
+                           </ul>
+                           <p class="reviews__item-descr">
+                              Мікрохвильовка поступово почала ламатися, спочатку відмовляли деякі кнопки, а потім і всі.
+                              Звернулась в ЕКТА сервіс. При покупці взяла їх гарантію...
+                              <a href="#">Показать больше</a>
+                           </p>
+                        </div>
+
+                     </div>
+                     <div class="reviews__item">
+                        <div class="reviews__item-top">
+                           <div class="reviews__item-user">
+                              <div class="reviews__item-icon">
+                                 <img src="img/reviews-6.png" alt="Маргарита Котовська">
+                              </div>
+                              <div class="reviews__item-name">
+                                 <span class="reviews__item-title">
+                                    Маргарита Котовська
+                                 </span>
+                                 <span class="reviews__item-online">
+                                    5 дней назад
+                                 </span>
+                              </div>
+                              <a href="#" class="reviews__item-google">
+                                 <img src="img/google.svg" alt="Google">
+                              </a>
+                           </div>
+                        </div>
+                        <div class="reviews__item-info">
+                           <ul class="reviews__item-rating">
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                           </ul>
+                           <p class="reviews__item-descr">
+                              Мне сделали отличную установку кондиционера без всяких проблем. Кондиционер висит в
+                              прихожей.
+                              Когда на улице +40... <a href="#">Показать больше</a>
+                           </p>
+                        </div>
+
+                     </div>
+                     <div class="reviews__item">
+                        <div class="reviews__item-top">
+                           <div class="reviews__item-user">
+                              <div class="reviews__item-icon">
+                                 <img src="img/reviews-7.png" alt="Маргарита Котовська">
+                              </div>
+                              <div class="reviews__item-name">
+                                 <span class="reviews__item-title">
+                                    Маргарита Котовська
+                                 </span>
+                                 <span class="reviews__item-online">
+                                    месяц назад
+                                 </span>
+                              </div>
+                              <a href="#" class="reviews__item-google">
+                                 <img src="img/facebook.svg" alt="Facebook">
+                              </a>
+                           </div>
+                        </div>
+                        <div class="reviews__item-info">
+                           <ul class="reviews__item-rating">
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating-blue.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating-blue.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating-blue.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating-blue.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating-blue.svg" alt="rating">
+                                 </a>
+                              </li>
+                           </ul>
+                           <p class="reviews__item-descr">
+                              Коли купляв додому водонагрівач, на всякий випадок взяв додаткову гарантію ХЕППІ СЕРВІС.
+                              Після двох років він почав протікати, думав, уже не будуть... <a href="#">Показать
+                                 больше</a>
+                           </p>
+                        </div>
+
+                     </div>
+                     <div class="reviews__item">
+                        <div class="reviews__item-top">
+                           <div class="reviews__item-user">
+                              <div class="reviews__item-icon">
+                                 <img src="img/reviews-8.png" alt="Коля Кушнир">
+                              </div>
+                              <div class="reviews__item-name">
+                                 <span class="reviews__item-title">
+                                    Коля Кушнир
+                                 </span>
+                                 <span class="reviews__item-online">
+                                    2 месяца назад
+                                 </span>
+                              </div>
+                              <a href="#" class="reviews__item-google">
+                                 <img src="img/google.svg" alt="Google">
+                              </a>
+                           </div>
+                        </div>
+                        <div class="reviews__item-info">
+                           <ul class="reviews__item-rating">
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                           </ul>
+                           <p class="reviews__item-descr">
+                              Гарантію мені продали в STYLUS до ноутбука, ноутбук став повільніше працювати, ніж раніше,
+                              з'явилися зависання і проблеми з програмами. По телефону сказали, що ремонт... <a
+                                 href="#">Показать
+                                 больше</a>
+                           </p>
+                        </div>
+
+                     </div>
+                     <div class="reviews__item">
+                        <div class="reviews__item-top">
+                           <div class="reviews__item-user">
+                              <div class="reviews__item-icon">
+                                 <img src="img/reviews-9.png" alt="Евгения Шевченко">
+                              </div>
+                              <div class="reviews__item-name">
+                                 <span class="reviews__item-title">
+                                    Евгения Шевченко
+                                 </span>
+                                 <span class="reviews__item-online">
+                                    2 месяца назад
+                                 </span>
+                              </div>
+                              <a href="#" class="reviews__item-google">
+                                 <img src="img/google.svg" alt="Google">
+                              </a>
+                           </div>
+                        </div>
+                        <div class="reviews__item-info">
+                           <ul class="reviews__item-rating">
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                              <li class="reviews__item-point">
+                                 <a href="#" class="reviews__item-link">
+                                    <img src="img/rating.svg" alt="rating">
+                                 </a>
+                              </li>
+                           </ul>
+                           <p class="reviews__item-descr">
+                              Два раза брала гарантію від ЕКТА сервіс на техніку. На цей раз оплатила послугу ЕКТА
+                              СМАРТ,
+                              купувала смартфон в Стілус для сина, через чотири місяця розбив... <a href="#">Показать
+                                 полностью</a>
+                           </p>
+                        </div>
+
+                     </div>
+                  </div>
+                  <button class="reviews__btn btn">Наступні відгуки</button>
+               </div>
+            </div>
+         </section>
+
+         <section class="faq">
+            <div class="container">
+               <h2 class="faq__title title">
+                  Питання — <span>Відповідь</span>
+               </h2>
+               <div class="faq__items spollers one">
+                  <div class="faq__item">
+                     <h4 class="faq__item-title spoller">
+                        Як відправити техніку в ремонт якщо я в іншому місті?
+                     </h4>
+                     <div class="faq__item-content">
+                        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Грамматики
+                        безорфографичный, рукопись имени дороге ему, там знаках вершину дорогу коварный все всемогущая
+                        рукописи, предупреждал реторический но подпоясал жаренные рекламных текстами составитель
+                        единственное если журчит текста не деревни сих! Имеет от всех безорфографичный, снова пунктуация
+                        решила на берегу эта реторический то речью последний жаренные не рукопись по всей родного
+                        предложения оксмокс. Одна, власти ему. Строчка это о, даже имеет сбить несколько бросил
+                        подзаголовок.
+                     </div>
+                  </div>
+                  <div class="faq__item">
+                     <h4 class="faq__item-title spoller">
+                        Які терміни ремонту?
+                     </h4>
+                     <div class="faq__item-content">
+                        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Грамматики
+                        безорфографичный, рукопись имени дороге ему, там знаках вершину дорогу коварный все всемогущая
+                        рукописи, предупреждал реторический но подпоясал жаренные рекламных текстами составитель
+                        единственное если журчит текста не деревни сих! Имеет от всех безорфографичный, снова пунктуация
+                        решила на берегу эта реторический то речью последний жаренные не рукопись по всей родного
+                        предложения оксмокс. Одна, власти ему. Строчка это о, даже имеет сбить несколько бросил
+                        подзаголовок.
+                     </div>
+                  </div>
+                  <div class="faq__item">
+                     <h4 class="faq__item-title spoller">
+                        На якому етапі роботи зараз моя техніка?
+                     </h4>
+                     <div class="faq__item-content">
+                        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Грамматики
+                        безорфографичный, рукопись имени дороге ему, там знаках вершину дорогу коварный все всемогущая
+                        рукописи, предупреждал реторический но подпоясал жаренные рекламных текстами составитель
+                        единственное если журчит текста не деревни сих! Имеет от всех безорфографичный, снова пунктуация
+                        решила на берегу эта реторический то речью последний жаренные не рукопись по всей родного
+                        предложения оксмокс. Одна, власти ему. Строчка это о, даже имеет сбить несколько бросил
+                        подзаголовок.
+                     </div>
+                  </div>
+                  <div class="faq__item">
+                     <h4 class="faq__item-title spoller">
+                        Як я дізнаюся що ремонт завершено?
+                     </h4>
+                     <div class="faq__item-content">
+                        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Грамматики
+                        безорфографичный, рукопись имени дороге ему, там знаках вершину дорогу коварный все всемогущая
+                        рукописи, предупреждал реторический но подпоясал жаренные рекламных текстами составитель
+                        единственное если журчит текста не деревни сих! Имеет от всех безорфографичный, снова пунктуация
+                        решила на берегу эта реторический то речью последний жаренные не рукопись по всей родного
+                        предложения оксмокс. Одна, власти ему. Строчка это о, даже имеет сбить несколько бросил
+                        подзаголовок.
+                     </div>
+                  </div>
+                  <div class="faq__item">
+                     <h4 class="faq__item-title spoller">
+                        Може хтось інший забрати мій пристрій?
+                     </h4>
+                     <div class="faq__item-content">
+                        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Грамматики
+                        безорфографичный, рукопись имени дороге ему, там знаках вершину дорогу коварный все всемогущая
+                        рукописи, предупреждал реторический но подпоясал жаренные рекламных текстами составитель
+                        единственное если журчит текста не деревни сих! Имеет от всех безорфографичный, снова пунктуация
+                        решила на берегу эта реторический то речью последний жаренные не рукопись по всей родного
+                        предложения оксмокс. Одна, власти ему. Строчка это о, даже имеет сбить несколько бросил
+                        подзаголовок.
+                     </div>
+                  </div>
+                  <div class="faq__item">
+                     <h4 class="faq__item-title spoller">
+                        Чи збережеться моя інформація після налаштування або ремонту пристрою?
+                     </h4>
+                     <div class="faq__item-content">
+                        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Грамматики
+                        безорфографичный, рукопись имени дороге ему, там знаках вершину дорогу коварный все всемогущая
+                        рукописи, предупреждал реторический но подпоясал жаренные рекламных текстами составитель
+                        единственное если журчит текста не деревни сих! Имеет от всех безорфографичный, снова пунктуация
+                        решила на берегу эта реторический то речью последний жаренные не рукопись по всей родного
+                        предложения оксмокс. Одна, власти ему. Строчка это о, даже имеет сбить несколько бросил
+                        подзаголовок.
+                     </div>
+                  </div>
+                  <div class="faq__item">
+                     <h4 class="faq__item-title spoller">
+                        У якій комплектації має бути пристрій під час здачі в ремонт?
+                     </h4>
+                     <div class="faq__item-content">
+                        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Грамматики
+                        безорфографичный, рукопись имени дороге ему, там знаках вершину дорогу коварный все всемогущая
+                        рукописи, предупреждал реторический но подпоясал жаренные рекламных текстами составитель
+                        единственное если журчит текста не деревни сих! Имеет от всех безорфографичный, снова пунктуация
+                        решила на берегу эта реторический то речью последний жаренные не рукопись по всей родного
+                        предложения оксмокс. Одна, власти ему. Строчка это о, даже имеет сбить несколько бросил
+                        подзаголовок.
+                     </div>
+                  </div>
+                  <div class="faq__item">
+                     <h4 class="faq__item-title spoller">
+                        Які документи потрібні для гарантійного ремонту?
+                     </h4>
+                     <div class="faq__item-content">
+                        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Грамматики
+                        безорфографичный, рукопись имени дороге ему, там знаках вершину дорогу коварный все всемогущая
+                        рукописи, предупреждал реторический но подпоясал жаренные рекламных текстами составитель
+                        единственное если журчит текста не деревни сих! Имеет от всех безорфографичный, снова пунктуация
+                        решила на берегу эта реторический то речью последний жаренные не рукопись по всей родного
+                        предложения оксмокс. Одна, власти ему. Строчка это о, даже имеет сбить несколько бросил
+                        подзаголовок.
+                     </div>
+                  </div>
+                  <div class="faq__item">
+                     <h4 class="faq__item-title spoller">
+                        За якою адресою можна здати пристрій у ремонт. Який графік роботи?
+                     </h4>
+                     <div class="faq__item-content">
+                        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Грамматики
+                        безорфографичный, рукопись имени дороге ему, там знаках вершину дорогу коварный все всемогущая
+                        рукописи, предупреждал реторический но подпоясал жаренные рекламных текстами составитель
+                        единственное если журчит текста не деревни сих! Имеет от всех безорфографичный, снова пунктуация
+                        решила на берегу эта реторический то речью последний жаренные не рукопись по всей родного
+                        предложения оксмокс. Одна, власти ему. Строчка это о, даже имеет сбить несколько бросил
+                        подзаголовок.
+                     </div>
+                  </div>
+                  <div class="faq__item">
+                     <h4 class="faq__item-title spoller">
+                        Чи є можливість викликати майстра?
+                     </h4>
+                     <div class="faq__item-content">
+                        Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Грамматики
+                        безорфографичный, рукопись имени дороге ему, там знаках вершину дорогу коварный все всемогущая
+                        рукописи, предупреждал реторический но подпоясал жаренные рекламных текстами составитель
+                        единственное если журчит текста не деревни сих! Имеет от всех безорфографичный, снова пунктуация
+                        решила на берегу эта реторический то речью последний жаренные не рукопись по всей родного
+                        предложения оксмокс. Одна, власти ему. Строчка это о, даже имеет сбить несколько бросил
+                        подзаголовок.
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+
+      </main>
+      <footer class="footer">
+  <div class="container">
+    <div class="footer__inner">
+      <div class="footer__top">
+        <div class="footer__left">
+          <div class="footer__logo">
+            <a href="index.html" class="footer__logo-link">
+              <img src="img/footer-logo.svg" alt="Логотип">
+            </a>
+          </div>
+          <div class="footer__item">
+            <h4 class="footer__title">
+              Соц. мережі
+            </h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">
+                  <img src="img/instogram.svg" alt="Instogram">
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">
+                  <img src="img/facebook-white.svg" alt="Facebook">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <h4 class="footer__title">
+              Месенджери
+            </h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">
+                  <img src="img/viber.svg" alt="Viber">
+                  <span>Viber bot</span>
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">
+                  <img src="img/telegram.svg" alt="Telegram">
+                  <span>Telegram bot</span>
+                </a>
+              </li>
+              <li class="footer__list-item">
+                <a href="#" class="footer__list-link">
+                  <img src="img/messenger.svg" alt="Messenger">
+                  <span>Messenger</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__item">
+            <h4 class="footer__title">
+              E-mail
+            </h4>
+            <ul class="footer__list">
+              <li class="footer__list-item">
+                <a href="mailto:info@ic-ekta.com" class="footer__list-link">
+                  info@ic-ekta.com
+                </a>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__right">
+          <div class="footer__item footer__item--menu">
+            <h4 class="footer__title">
+              Меню:
+            </h4>
+            <nav class="footer__menu">
+              <ul class="footer__menu-list">
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link footer__text">Послуги</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link footer__text">Партнери</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link footer__text">Про компанію</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link footer__text">Що ремонтуємо</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link footer__text">Додаткові сервіси</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link footer__text">Блог</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link footer__text">Відгуки</a>
+                </li>
+                <li class="footer__menu-item">
+                  <a href="#" class="footer__menu-link footer__text">Контакти</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__item">
+            <h4 class="footer__title">
+              Режим роботи:
+              <br>
+              <br>
+              Центр обслуговування клієнтів:
+            </h4>
+            <div class="footer__schedule footer__text">
+              Пн.-Пт. з 9:00 до 18:00<br>
+              Сб.-Нд. — вихідний;
+            </div>
+            <div class="footer__contacts">
+              <div class="footer__title">
+                Контакт Центр:
+              </div>
+              <a href="tel:0800305122" class="footer__phone footer__text">0 800 305 122</a>
+              <br>
+              <br>
+              <span class="footer__schedule footer__text">
+                9:00-21:00
+                Без вихідних
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__acclangblock">
+        <div class="footer__accounts">
+          <span>
+            <div class="footer__accounts-menu">
+              <button>Особистий кабінет</button>
+              <div class="footer__accounts-drpd">
+                <a href="#enter" class="footer__accounts-link">Вхід</a>
+                <div></div>
+                <a href="#reg" class="footer__accounts-link">Реєстрація</a>
+
+              </div>
+            </div>
+          </span>
+          <svg width="17" height="20" viewBox="0 0 17 20" fill="white" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M13.7542 11.9999C14.9962 11.9999 16.003 13.0068 16.003 14.2488V14.8242C16.003 15.7185 15.6835 16.5833 15.1019 17.2627C13.5326 19.0962 11.1454 20.0011 8 20.0011C4.85414 20.0011 2.46812 19.0959 0.90182 17.2617C0.322059 16.5828 0.00354004 15.7193 0.00354004 14.8265V14.2488C0.00354004 13.0068 1.0104 11.9999 2.25242 11.9999H13.7542ZM13.7542 13.4999H2.25242C1.83882 13.4999 1.50354 13.8352 1.50354 14.2488V14.8265C1.50354 15.3622 1.69465 15.8802 2.04251 16.2876C3.29582 17.7553 5.26169 18.5011 8 18.5011C10.7383 18.5011 12.7059 17.7553 13.9624 16.2873C14.3113 15.8797 14.503 15.3608 14.503 14.8242V14.2488C14.503 13.8352 14.1678 13.4999 13.7542 13.4999ZM8 0.00463867C10.7614 0.00463867 13 2.24321 13 5.00464C13 7.76606 10.7614 10.0046 8 10.0046C5.23857 10.0046 3 7.76606 3 5.00464C3 2.24321 5.23857 0.00463867 8 0.00463867ZM8 1.50464C6.067 1.50464 4.5 3.07164 4.5 5.00464C4.5 6.93764 6.067 8.50464 8 8.50464C9.93299 8.50464 11.5 6.93764 11.5 5.00464C11.5 3.07164 9.93299 1.50464 8 1.50464Z"
+              fill="#FFFFFF" />
+          </svg>
+        </div>
+        <div class="footer__languages sl-nav">
+          <ul class="footer__languages-wrapp sl-nav-wrapp">
+            <li class="footer__languages-item sl-nav-item">
+              <div class="footer__languages-point">
+                <img src="img/ua.svg" alt="UA">
+                <span>UA</span>
+              </div>
+              <div class="triangle"></div>
+              <ul class="footer__languages-wrapper lang-wrapper">
+                <li class="footer__languages-items lang-items">
+                  <div id="germany"></div>
+                  <a href="index.html">
+                    <img src="img/ua.svg" alt="UA">
+                    <span class="active">UA</span>
+                  </a>
+                </li>
+                <li class="footer__languages-items lang-items">
+                  <div id="germany"></div>
+                  <img src="img/ru.svg" alt="RU">
+                  <a href="/ru/">
+                    <span>RU</span>
+                  </a>
+                </li>
+                <li class="footer__languages-items lang-items">
+                  <div id="germany"></div>
+                  <a href="/en/">
+                    <img src="img/en.svg" alt="EN">
+                    <span>EN</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__bottom">
+
+        <h4 class="footer__title">
+          <span>Договір оферти</span>
+          <span>Публічні договори</span>
+        </h4>
+        <div class="footer__descr footer__text">
+          Україна, м Київ, 03150, вул. Ділова, 5 корпус 2, ЛІТЕРА В1
+        </div>
+      </div>
+      <div class="footer__copy">
+        Всі права захищені
+      </div>
+    </div>
+  </div>
+</footer>
+   </div>
+   <div class="popup popup_popup"> <!-- здесь добавляем модификатор, с именем которые мы придумали для href -->
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+		</div>
+	</div>
+</div>
+<div class="popup popup_popup" id="pop1"> <!-- здесь добавляем модификатор, с именем которые мы придумали для href -->
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+			<!-- весь остальной контент выводим ниже popup__close, все классы выше нужны для js -->
+			<div class="popup__text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Ручеек маленькая если назад путь бросил его которой знаках сих заманивший текста деревни проектах строчка наш, то напоивший предупредила коварных рыбными. Свой скатился, предложения дал своего до пор первую семантика.</div>
+		</div>
+	</div>
+</div>
+<div class="popup popup_popup" id="pop2"> <!-- здесь добавляем модификатор, с именем которые мы придумали для href -->
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+			<!-- весь остальной контент выводим ниже popup__close, все классы выше нужны для js -->
+			<div class="popup__text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Ручеек маленькая если назад путь бросил его которой знаках сих заманивший текста деревни проектах строчка наш, то напоивший предупредила коварных рыбными. Свой скатился, предложения дал своего до пор первую семантика.</div>
+		</div>
+	</div>
+</div>
+<div class="popup popup_popup" id="pop3"> <!-- здесь добавляем модификатор, с именем которые мы придумали для href -->
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+			<!-- весь остальной контент выводим ниже popup__close, все классы выше нужны для js -->
+			<div class="popup__text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Ручеек маленькая если назад путь бросил его которой знаках сих заманивший текста деревни проектах строчка наш, то напоивший предупредила коварных рыбными. Свой скатился, предложения дал своего до пор первую семантика.</div>
+		</div>
+	</div>
+</div>
+<div class="popup popup_popup" id="pop4"> <!-- здесь добавляем модификатор, с именем которые мы придумали для href -->
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+			<!-- весь остальной контент выводим ниже popup__close, все классы выше нужны для js -->
+			<div class="popup__text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Ручеек маленькая если назад путь бросил его которой знаках сих заманивший текста деревни проектах строчка наш, то напоивший предупредила коварных рыбными. Свой скатился, предложения дал своего до пор первую семантика.</div>
+		</div>
+	</div>
+</div>
+<div class="popup popup_popup" id="pop1"> <!-- здесь добавляем модификатор, с именем которые мы придумали для href -->
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+			<!-- весь остальной контент выводим ниже popup__close, все классы выше нужны для js -->
+			<div class="popup__text">Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Ручеек маленькая если назад путь бросил его которой знаках сих заманивший текста деревни проектах строчка наш, то напоивший предупредила коварных рыбными. Свой скатился, предложения дал своего до пор первую семантика.</div>
+		</div>
+	</div>
+</div>
+<div class="popup popup_massagename-message">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close"></div>
+		</div>
+	</div>
+</div>
+<div class="popup popup_video">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close popup__close_video"></div>
+			<div class="popup__video _video"></div>
+		</div>
+	</div>
+</div>
+
+   <!-- Swiper -->
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+<script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.header__burger').click(function(event) {
+			$('.header__burger,.header__menu').toggleClass('active');
+			//$('body').toggleClass('lock');
+			});
+		});
+	</script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+</body>
+
+</html>
